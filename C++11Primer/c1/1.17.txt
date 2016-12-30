@@ -1,0 +1,3 @@
+if the program in question is given all similar values, it will properly add up the value count.
+
+If the program is given no duplicate values, it prints that each value was present once.

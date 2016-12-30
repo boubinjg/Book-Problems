@@ -1,0 +1,9 @@
+1: std::cout << "/*"; 
+	legal
+2: std::cout << "*/";
+	legal
+3: std::cout << /* "*/" */;
+	illegal
+
+4: std::cout<< /* "*/" /* "/*" */;
+	legal

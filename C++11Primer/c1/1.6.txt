@@ -1,0 +1,5 @@
+The code fragment in question is not legal. There is a problem in the second line. The first symbol in line two is
+the output operator. The output operator is binary, and therefore requires two operands, one on either side.
+While the output operator can act on operands on other lines than itself, line one is terminated with a semicolon. 
+This means that the would be operand on line one is not accessible to the output operator so it can not function.
+This behavior can also be seen between lines two and three.
