@@ -1,0 +1,5 @@
+Rate: Double - Doubles are more precise than regular floats, take up negligable amounts of memory in most cases. Double arithmetic is only slightly slower (or possibly faster) than float arithemtic. It is unlikely that you will have a negative rate, but I wont rule it out by making the Rate variable unsigned.
+
+Principal: unsigned int - An appropriately sized integer would reasonably fit the principal value. Using cents instead of dollars as your base will also eliminate the decimal issue with money. Representing money using floats should be avoided due to the fact that not all values can be represented using IEEE floating point notation.
+
+Payment: unsigned int - for the same reasons as above. 

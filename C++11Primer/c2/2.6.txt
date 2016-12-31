@@ -1,0 +1,1 @@
+the difference between the two is that 09 and 07 are octal literals. 09 is not a number in octal, and therefore this code will likely not compile.

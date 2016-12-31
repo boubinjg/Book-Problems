@@ -1,0 +1,7 @@
+a) the literal is a string with a series of escape sequences.
+
+b) long double
+
+c) float
+
+d) long double 

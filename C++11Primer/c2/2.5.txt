@@ -1,0 +1,24 @@
+a)
+'a' is a character
+L'a' is a wchar_t
+"a" is a string of characters
+L"a" is a string of wchar_t's 
+
+b)
+10 is an int literal
+10u is an unsigned int
+10L is a long long
+10uL is an unsigned long long
+012 is an octal literal
+0xC is a hexidecimal literal
+
+c) 
+3.14 is a double literal
+3.14f is a float literal
+3.14L is a long double literal
+
+d)
+10 is an int literal
+10u is an unsigned int
+10. is a double 
+10e-2 is a double

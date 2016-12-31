@@ -1,0 +1,7 @@
+a) Incorrect, you can't declare an uninitialized variable and apply an operator to it at the same time
+
+b) Incorrect, 3.14 is a 64 bit double, and i is an int. Usually this would be possible, but the list initialization will not work with narrowing conversions, such as converting a double to an int
+
+c) This works, but only if wage is initialized.
+
+d) Correct, narrowing conversion works in this regard.

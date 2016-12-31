@@ -1,0 +1,1 @@
+Ints are initialized to 0, strings are initialized to ""
