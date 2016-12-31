@@ -1,0 +1,4 @@
+a) const int buf; illegal, buf is not initialized
+b) int cnt = 0; legal
+c) const int sz = cnt; legal
+d) ++cnt; ++sz; cnt can be incremented, sz can not because its const.

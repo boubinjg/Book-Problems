@@ -1,0 +1,5 @@
+a) ip is a pointer to an int, i is an int, r is a reference to i
+
+b) i is an int, ip is a null pointer
+
+c) ip is a pointer to an int, ip2 is an int

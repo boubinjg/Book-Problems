@@ -1,0 +1,1 @@
+The key difference between pointers and references is that a pointer is an object, and a reference is not. References can not be reassigned to other objects after creation and must be initialized. Pointers do not have these restrictions.

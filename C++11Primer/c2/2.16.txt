@@ -1,0 +1,7 @@
+a) This works. the object associated with r2 is assigned a new value of its type
+
+b) this should work. the references are of different types, but the underlying objects are capable of conversions
+
+c) this should work, i is capable of narrowing conversions
+
+d) this works for the reasons above

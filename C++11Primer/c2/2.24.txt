@@ -1,0 +1,1 @@
+void* can point to any object. long* can only point to longs, but i is an int.
