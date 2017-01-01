@@ -1,0 +1,7 @@
+const int v2 = 0; top level const
+int v1 = v2; low level const
+int *p1 = &v1; low level const
+int &r1 = v1; low level const
+cost int *p2 = &v2; low level const
+*const p3 = &i; top level const
+int &r2 = v2; low level const

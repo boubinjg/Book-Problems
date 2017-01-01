@@ -1,0 +1,2 @@
+c is an int which holds the value of a
+d is a reference to a

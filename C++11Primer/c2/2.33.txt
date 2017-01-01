@@ -1,0 +1,6 @@
+a = 42; a is assigned the value 42, a is an int
+b = 42; b is assigned 42, b is an int
+c = 42; same as above
+d = 42; d is an int pointer, this is illegal
+e = 42; e is a const int pointer, illegal
+g = 42; g is a const int reference, this is illegal

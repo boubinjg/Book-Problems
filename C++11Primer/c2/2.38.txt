@@ -1,0 +1,1 @@
+decltype will apply top level const of an expression or variable where auto will not
