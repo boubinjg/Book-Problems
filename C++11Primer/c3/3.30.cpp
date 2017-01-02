@@ -1,0 +1,1 @@
+The indexing error in the code provided comes at the end of the for loop. The loop control variable starts at 1 and finished the loop at array_size. This means that the program attempts to access the subscript equal to the arrays size which is illegal.

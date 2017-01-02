@@ -1,0 +1,1 @@
+Arrays are not dynamic, mainly because their size is part of their underlying type. You can not change the size of an array which can be inconvenient. Arrays also do not have many other features and safeties of vectors.
