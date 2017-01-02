@@ -1,0 +1,1 @@
+Whitespace characters are ignored using cin, but are kept using getline. Getline also allows you to specify delimiters, so you can change your delimiter to whitespace if you want, but it is newline by default
