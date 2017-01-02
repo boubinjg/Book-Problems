@@ -1,0 +1,2 @@
+mid = (beg+end)/2 is not a legal expression. you can't add too iterators, but you can add integers to iterators. 
+mid = beg + (end-beg)/2 adds an integer "(end-beg)/2" to the iterator beg.
