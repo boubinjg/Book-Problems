@@ -1,0 +1,2 @@
+1: *vec.begin() = *(vec.begin())
+2: *vec.begin() + 1 = (*(vec.begin())) + 1
