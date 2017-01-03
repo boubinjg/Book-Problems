@@ -1,0 +1,7 @@
+overflow is a situation in which a value assigned to a variable requires more bits to represent than the variable has memory. If this happens, all of the n earliest bits are kept, and the overflow bits are ignored. For instance, if a 35 bit number were assigned to an integer of 32 bits, the first 32 bits of that number would be kept, losing the last 3 bits.
+
+Examples:
+
+char c = 500; -> chars in c++ are not large enogh to hold this number;
+int i = 10000000000; 
+short s = 50000;
