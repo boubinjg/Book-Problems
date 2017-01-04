@@ -1,0 +1,1 @@
+With And and Or, the leftmost operand is evaluated first. For And, if the first operand is true, the second operand is evaluated, otherwise it is not. This is known as sort circuiting. For the logical Or, if the first operand is false, the second operand is evaluated, otherwise it is not. equality operators are evaluated left to right.
