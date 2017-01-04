@@ -1,0 +1,5 @@
+if (42=i)
+	this is an error, 42 is an rvalue
+
+if(i = 42)
+	this evaluates to true, i != 0 so it will always be true

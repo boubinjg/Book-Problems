@@ -1,0 +1,14 @@
+a) 
+if (p = getptr() != 0)
+
+change to:
+
+if((p = getptr()) != 0)
+
+b)
+if(i = 1024)
+
+change to:
+
+if(i == 1024)
+
