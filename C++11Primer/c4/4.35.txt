@@ -1,0 +1,18 @@
+a)
+cval = 'a' + 3;
+'a' is promoted to an int, then the result is promoted to a char
+
+b) 
+fval = ui - ival * 1.0
+
+ival is converted to a double, and ui is then converted to a double, then the result is converted to a floar
+
+c)
+dval = ui * fval
+
+ui is converted to a float, then result is converted to double
+
+d) 
+cval = ival + fval + dval
+
+ival is converted to float, then the result is converted to a double, then that result is converted to char

@@ -1,0 +1,3 @@
+j/i is performed using integer devision, and the resulting int is cast to a double.
+The programmer probably intended for floating point devision to be performed, which could be accomplished
+by only casting one of the integers.

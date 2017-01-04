@@ -1,0 +1,9 @@
+a) if (fval) 
+fval is converted to a bool
+
+b) dval = fval + ival;
+fval and ival are converted to doubles
+
+c) dval + ival * cval;
+
+cval is promoted to an int, then the result of ival*cval is converted to a double
