@@ -1,0 +1,6 @@
+auto pbeg = v.begin();
+while(pbeg != pbeg.end() && *pbeg >= 0)
+	cout << *pbeg++ << endl;
+
+if this statement were to use a preincrement, you would eventually access pbeg.end(), as you would be accessing 
+one position further into the vector than intended.

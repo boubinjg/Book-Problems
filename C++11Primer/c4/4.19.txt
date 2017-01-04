@@ -1,0 +1,16 @@
+a)
+ptr != 0 && *ptr++
+
+This statement checks to see if the current ptr is null, and then checks to see if the value the ptr points to is
+zero, and increments that value. if ptr is not null and *ptr is not zero, the statement evaluates to true.
+This could be reasonably correct, if you wanted to increment *ptr and not check if *ptr+1 was zero or not
+
+b)
+ival++ && ival
+
+This one checks to see if ival is equal to -1 or 0.
+
+c)
+vec[ival++] <= vec[ival]
+
+This is equivalent to vec[ival]<=vec[ival+1]

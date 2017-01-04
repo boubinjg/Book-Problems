@@ -1,0 +1,2 @@
+Prefix incrementation immediately increments the value of the variable. Postfix increments the variable and returns 
+a copy of the original value, so if you use postfix incrementation as part of a statement, you will be using the copy of the old object when the statement is evaluated.
