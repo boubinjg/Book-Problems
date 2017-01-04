@@ -1,0 +1,8 @@
+q = 01110001
+
+~'q' << 6 evaluates as so:
+
+~'q' is evaluated first and holds the value 10001110
+
+then the value above is shifted left 6 bits to equal
+000000000010001110000000, which is the promoted version of q shifted left 6 bits

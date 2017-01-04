@@ -1,0 +1,11 @@
+string s = "word"
+
+string p1 = s + s[s.size() - 1] == 's' ? "" : "s";
+
+The reason this doesnt compile is because + has pecedence over ==. 
+The programmer wants to determine if the word ends with 's', but what actually happens is 
+we concatenate the string s and its last letter, and compare that to the character 's' which is
+not valid. The following line of code should work:
+
+string p1 = s + (s[s.size() - 1] == 's' ? "" : "s");
+

@@ -1,0 +1,4 @@
+The pass fail program would not work if the conditional operator were left associative. Our left side of the 
+expression contains another conditional expression. If this expression were not evaluated first given that
+it would be returned, then the first conditional operator would return the expression, not its answer. This is
+incorrect.

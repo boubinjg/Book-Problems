@@ -1,0 +1,2 @@
+If we used an unsigned int, we may get undefined behavior. ints are not guaranteed to be 32 bits in the standard, they are guaranteed to be at least 16 bits. We needed 30 bits, so it is safer to use a long which will have 32 bits at 
+least.
