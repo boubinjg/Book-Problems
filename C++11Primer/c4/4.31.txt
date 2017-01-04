@@ -1,0 +1,2 @@
+The program uses prefix operators because postfix operators perform an extra instruction. Postfix increments 
+increment the variable, but return its previous value. Postfix increments return the current value. Prefix increments have to store and return another value, complicating the process. In this case, that is unnecessary because the values are not being used. Doubly so for ix, as it is discarded immediately.

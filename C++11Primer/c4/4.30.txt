@@ -1,0 +1,4 @@
+((sizeof x) + y); + and sizeof are the same precedence, but sizeof is executed first
+(sizeof (p->mem[i])); the arrow operator has highest precedence 
+((sizeof a) < b); < has lower precedence than sizeof
+(sizeof (f())); The function call operator has higher precedence than sizeof

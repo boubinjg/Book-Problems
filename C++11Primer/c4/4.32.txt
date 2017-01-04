@@ -1,0 +1,2 @@
+This loop checks to make sure ix does not equal 5, and ptr does not equal the end of the array. This is useful
+if within the loop body, either ptr or ix is modified.
