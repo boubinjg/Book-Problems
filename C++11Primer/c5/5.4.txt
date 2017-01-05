@@ -1,0 +1,9 @@
+while (string::iterator iter != s.end())
+string::iter iter is uninitialized so comparing it to another iterator will cause an error
+
+while(bool status = find(word))
+
+if(!status)
+
+status is declared inside the while loops control structure. It is not accessible outside of the while loop
+so if(!status) will error.
