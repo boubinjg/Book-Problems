@@ -1,0 +1,17 @@
+a) ix is declared in the loop init statement, but used outside of the loops scope. This is illegal
+to correct:
+	int ix;
+	for(ix = 0; ix != sz; ix++) {/* */}
+	if(ix != sz)
+		//...
+
+b) in b, ix is not initialized and therefore cant be compared to sz; 
+to correct:
+	int ix;
+	for(ix = 0; ix != sz; ix++) {/* */}
+	
+c) For this loop to terminate, ix must be modified in the loop body, or sz must initially
+equal 0; Under many circumstances, ix and sz will never be equal if they are both incremented 
+in every iteration.
+
+

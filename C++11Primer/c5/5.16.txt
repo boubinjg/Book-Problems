@@ -1,0 +1,27 @@
+idiomatic for loop:
+	//v is a vector of ints
+	for(auto i : v)
+		std::cout<<i<<std::endl;
+
+	as a while:
+	auto it = v.begin();
+	while(it != v.end())
+	{
+		std::cout<<*it<<std::endl;
+		++it;
+	}
+
+
+idiomatic while loop:
+//s is a string
+	while(cin>>s)
+		std::cout<<s<<std::endl;
+
+	as a for loop:
+
+	for(std::string s; cin>>s; )
+		std::cout<<s<<std::endl;
+
+
+If I could only use one of these loops, I would choose the for loop. The for adds extra functionality, like
+allowing the declaration of variables and providing a range option for iterating over containers.
