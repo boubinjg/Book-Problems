@@ -1,0 +1,2 @@
+A block is a segment of code with its own scopewhich is executed as a single compound statement. Blocks are useful 
+for expressing multiple statements in a loop body or if statement.

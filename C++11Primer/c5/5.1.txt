@@ -1,0 +1,7 @@
+a null statement is an empty statement which does nothing. Null statements are used when the language requires a statement, but but programs logic does not. For instance:
+
+for(;;)
+{
+	//code
+}
+is an infinitely executing for loop which may be useful in some cases. Other times it may be useful to omit one or more of the required statements of a for loop, the assignment, condition, or incrementation.
