@@ -1,0 +1,21 @@
+a) The loop tests cin as its condition which is not legal. To correct this, we should have the user input
+a specific character which terminates the loop
+
+b) In this loop, we declare a variable in the loop condition. This is illegal as the only place the
+variable can be used is before its declared. To fix this:
+
+int ival;
+do{
+ //...
+}while(ival = get_response());
+
+c) ival is declared outside of the scope of the loop condition.
+To correct:
+
+int ival;
+
+do{
+	ival = get_response();
+}while(ival);
+
+
