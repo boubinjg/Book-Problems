@@ -1,0 +1,3 @@
+a dangling else happens when an else statement is matched to the wrong if statement. This issue occurs when
+there are more if's than elses, and they are not properly separated. Elses are matched to the nearest unmatched if 
+in c++. This may not be the if statement that the programmer intended to match with the else.

@@ -1,0 +1,34 @@
+a) if (ival1 != ival2)
+	ival1 = ival2
+
+	change to just ival1 = ival2;
+
+b) if (ival < minval)
+		minval = ival;
+		occurs = 1;
+
+	change to:
+	if(ival<minval){
+		minval = ival;
+		occurs = 1;
+	}
+
+c) if (int ival = get_value())
+	cout << "ival = " << ival << endl;
+   if (!ival)
+	cout << "ival = 0"
+
+	change to:
+	
+   int ival;
+   if (int ival = get_value())
+	cout << "ival = " << ival << endl;
+   if (!ival)
+	cout << "ival = 0"
+
+d) if (ival = 0)
+	ival = get_value();
+
+   change to:
+   if (!ival)
+	ival = get_value();
