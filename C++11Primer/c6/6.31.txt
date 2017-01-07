@@ -1,0 +1,1 @@
+It is valid to return a reference when you are not refering to local variable. 

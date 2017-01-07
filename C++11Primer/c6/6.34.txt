@@ -1,0 +1,2 @@
+If the stopping condition for the factorial function were v != 0, the recursive loop could continue indefinitely
+if given a negative number.
