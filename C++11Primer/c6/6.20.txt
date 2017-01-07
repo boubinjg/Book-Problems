@@ -1,0 +1,4 @@
+A regular parameter should be a const T& when you dont plan on modifying it. If you do plan on modifying it,
+then accepting a const parameter would not work very well. If we have a parameter to a plain reference
+where we could be using a const, that disallows all const variables from being passed as arguments to
+the function, dispite the fact that they would work just fine with a function that would not modify them.

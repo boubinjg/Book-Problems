@@ -1,0 +1,7 @@
+a) illegal, only one parameter, but passed two arguments
+
+b) illegal, you cant have a reference to a literal
+
+c) legal, 66 is converted to a double
+
+d) legal, 3.8 is converted to an int, assuming vec is a std::vector<int>  
