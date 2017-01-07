@@ -1,0 +1,3 @@
+A parameter is defined by the function as a value required to be passed in a function call. Functions define parameters which may be used within the functions body for calculation.
+
+Arguments are the values used to initialize the function's parameters when the function is called

@@ -1,0 +1,4 @@
+void f(T) is a pass by value function. the argument of type T is duplicated and assigned to the parameter of type T
+local to the function f.
+
+void f(T&) is a pass by reference function. the paramater is an alias for the argument, so nothing is copied. 

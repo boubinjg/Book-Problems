@@ -1,0 +1,10 @@
+a) function f is defined as returning an int, but returns a string in its function body. This is incorrect.
+	to correct this issue, f must return a string
+
+b) f2 does not have a return type. To correct this, give f2 the void type
+
+c) calc does not return an int. To correct this, return the result of its calculation which must be 
+able to convert to an int.
+
+d) function square does not use curly braces to create a block. This is illegal. To correct this, 
+add curly braces around the function body.

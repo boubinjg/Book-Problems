@@ -1,0 +1,5 @@
+A parameter should be a reference type when it can be very large, such as vector or string. These are objects of
+variable size and can be time consuming to copy.
+
+A paramater should not be a reference if it is small and/or you would like to preserve the value of the original
+variable. 

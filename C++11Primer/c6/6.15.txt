@@ -1,0 +1,6 @@
+s is a const reference because it is not meant to be changed, but it is also a string so it could be difficult
+to copy.
+
+o is non-const because its value must be changed.
+
+c is a char value because chars are small and referencing it would require extra unnecessary work.

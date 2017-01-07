@@ -1,0 +1,2 @@
+the function takes a string reference, but doesn't change it. It would be more inclusive to take a 
+const string& as a parameter instead of a string& so users can pass const strings instead of simply regular strings.
