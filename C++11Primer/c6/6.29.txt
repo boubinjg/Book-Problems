@@ -1,0 +1,2 @@
+You would never use a reference in a range for over an initializer_list because the list elements can not be
+modified. The elements in an initializer_list are const.
