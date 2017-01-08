@@ -1,0 +1,4 @@
+This loop is not a good use of assert. When cin stops providing input, the loop would terminate
+and the assert statement would immediately fail.
+
+

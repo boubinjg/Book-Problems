@@ -1,0 +1,7 @@
+a) ambiguous
+
+b) f(int)
+
+c) f(int, int)
+
+d) f(double, double)
