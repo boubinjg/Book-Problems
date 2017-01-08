@@ -1,0 +1,4 @@
+decltype(arrStr)& arrptr(int i)
+{
+
+}

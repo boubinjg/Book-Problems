@@ -1,0 +1,5 @@
+a) a function with the same arguments as another, which are const, is not a proper overload, so this is an error
+
+b) changing the return type is not a proper overload, so this is illegal 
+
+c) this is legal, the pointer types are different.
