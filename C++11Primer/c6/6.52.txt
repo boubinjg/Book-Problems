@@ -1,0 +1,3 @@
+a) both character arguments are rank 3, match through promotion
+
+b) both are rank 4, match through conversion

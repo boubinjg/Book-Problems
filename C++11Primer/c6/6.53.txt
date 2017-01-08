@@ -1,0 +1,5 @@
+a) This is a legal overload
+
+b) this is legal as the pointer is const, not a pointer to const
+
+c) this is illegal, the constness of the pointed to object doesn't matter in overloading
