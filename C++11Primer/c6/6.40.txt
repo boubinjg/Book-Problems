@@ -1,0 +1,3 @@
+A) This declaration is legal
+
+b) This declaration is illegal, you can not declare default arguments after non-default arguments

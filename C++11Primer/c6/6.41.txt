@@ -1,0 +1,6 @@
+a) this call is illegal, at a minimum, ht must be supplied an argument
+
+b) legal
+
+c) legal, but likely not what was intended. the char argument can be converted to an int, so this is equivalent
+to the call init(14, '*', ' ').
