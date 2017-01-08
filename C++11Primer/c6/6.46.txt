@@ -1,0 +1,2 @@
+isShorter can not be a constexpr because it does not return a literal or a literal based expression. It determines
+at runtime the return value based on the lengths of its parameters so it can not be a constexpr.

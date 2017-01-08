@@ -1,0 +1,4 @@
+A) eq should be defined in the header as it is an inline because all definitions of an inline function must be the
+same. For this reason, it is easier to put them in a header file
+
+B) This function can go in either a header or a source file

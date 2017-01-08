@@ -1,0 +1,2 @@
+a function line make_plural from exercise 42 could be inline, as it is certainly short enough to be inlined.
+Our recursive factorial function, however, should not be inlined.
