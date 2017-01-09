@@ -1,0 +1,1 @@
+The class can rely on default copy and assignment because it only uses built in types
