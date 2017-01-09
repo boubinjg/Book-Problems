@@ -1,0 +1,3 @@
+An access specifier can appear as many times as necessary throughout a class definition. 
+Members who the programmer does not intend to be accessed outside the class should be private,
+all other members should be public

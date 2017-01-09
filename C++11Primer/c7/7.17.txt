@@ -1,0 +1,2 @@
+Structs members are all default public,
+class members are all default private

@@ -1,0 +1,6 @@
+Sales_data()
+{
+	bookNo = "";
+	revenue = 0.0;
+	units_sold = 0;
+}

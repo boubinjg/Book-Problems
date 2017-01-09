@@ -1,0 +1,3 @@
+Friends are useful because they allow outside functions to use private members of functions which may not have
+access functions. The issue with this is that each friend must be varified to work properly with the 
+class to ensure that it does not corrupt objects of that class.

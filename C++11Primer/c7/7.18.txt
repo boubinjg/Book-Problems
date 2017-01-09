@@ -1,0 +1,4 @@
+Encapsulation is the concept of limiting access to certain members of a class to the class itself.
+If all classes had exclusively private members, then any programmer using the class could modify all
+data in the class. Changing these private elements of a class could create outcomes of functions which
+are unintended or dangerous.

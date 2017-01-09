@@ -1,0 +1,1 @@
+The if statement continues if data1 and data2 are read in, otherwise it exits.

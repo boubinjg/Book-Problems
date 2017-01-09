@@ -1,0 +1,1 @@
+read needs to modify the reference, where print does not
