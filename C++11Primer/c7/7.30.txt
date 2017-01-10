@@ -1,0 +1,3 @@
+Explicitly using this may help destinguishing between similarly or identically named global and local variables. It
+may also help confused or inexperienced programmers who are reading your code to understand which objects are 
+being referenced.
