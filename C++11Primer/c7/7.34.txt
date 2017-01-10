@@ -1,0 +1,7 @@
+This would not work. pos is defined in the screen class, so we would need to declare the function like this:
+
+Screen::pos
+Screen::size() const 
+{
+	return height * width;
+}
