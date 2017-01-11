@@ -1,0 +1,2 @@
+Sales_data item1(null_isbn) creates a Sales_data object using the std::string constructor
+Sales_data item2("stuff") same as above. Neither of these are affected by the lack of the explicit keyword

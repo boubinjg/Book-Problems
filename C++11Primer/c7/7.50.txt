@@ -1,0 +1,2 @@
+The only constructor in my person class which could be explicit takes an istream. I see how this should be
+explicit. Assigning an istream to a class to print it is not intuitive.

@@ -1,0 +1,3 @@
+I do not think this constructor should be explicit. In the case of the vector constructor, I can see the size
+constructors explicit-ness is to avoid the confusion of initializing a vector to an int value. This would initialize
+the Sales_item to either an ISBN value which is more understandable.

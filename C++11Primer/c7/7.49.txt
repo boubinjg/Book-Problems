@@ -1,0 +1,3 @@
+a) converts the string to a Sales_data object 
+b) error, no way to convert a string reference to a Sales_data reference
+c) Still doesnt work

@@ -1,0 +1,2 @@
+string's single argument constructor is not explicit because the conversion makes intuitive sense.
+Vector's conversion from int to vector does not make intuitive sense.
