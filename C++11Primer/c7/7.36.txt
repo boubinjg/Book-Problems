@@ -1,0 +1,7 @@
+The issue is that base is used to initialize rem, but it is initialized after rem.
+To fix this:
+
+struct X {
+	x (int i, int j): base(i), rem(i % j) { }
+	int rem, base;
+};
