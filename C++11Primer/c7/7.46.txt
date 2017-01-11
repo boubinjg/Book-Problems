@@ -1,0 +1,8 @@
+a) False, a synthesized default will be provided if there is no other constructor
+
+b) A default constructor can have default arguments, so this is false
+
+c) I would say no. Default constructors are useful for things like the example in 7.44, vector initialization.
+Leaving out a default constructor would limit you in that area.
+
+d) False, this only happens if no constructor is defined.

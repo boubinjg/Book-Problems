@@ -1,0 +1,1 @@
+This is illegal as NoDefault can not be default initialized.
