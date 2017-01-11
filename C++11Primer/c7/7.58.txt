@@ -1,0 +1,5 @@
+rate: should be const
+vecSize: correct
+vector: cant do in class initializer with non-integral type
+
+

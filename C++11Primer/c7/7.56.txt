@@ -1,0 +1,5 @@
+Static class members are members which hold the same value for all instances of a class. They exist within
+the scope of the class, but are independent of the class in that they exist for the life of the program. Static
+members are useful in situations where you want an object which is the same for all class instances. Static members
+are usually initialized outside of the class body, but still within the scope of the class. They can also be used
+as default arguments unlike other data members.
