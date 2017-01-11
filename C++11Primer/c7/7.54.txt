@@ -1,0 +1,1 @@
+No because you would not be able to actually set the variables as they would be treated as const
