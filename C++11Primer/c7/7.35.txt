@@ -1,0 +1,15 @@
+typedef string Type;
+type initVal(); //string
+class Exercise {
+public:
+	typedef double Type;
+	Type setVal(Type); //uses double
+	Type initVal(); //double
+private:
+	int val; 
+};
+Type Exercise::setVal(Type parm) {
+	val = parm + initVal(); //uses string
+	return val; 
+
+}
