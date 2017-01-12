@@ -1,0 +1,2 @@
+the begin iterator must appear before the end iterator.
+They must also refer to elements in the same container.

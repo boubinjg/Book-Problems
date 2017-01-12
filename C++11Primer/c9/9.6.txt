@@ -1,0 +1,1 @@
+The < operator does not exist for the list iterator. Lists are not necessarily stored in contiguous memory.
