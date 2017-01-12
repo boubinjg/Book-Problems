@@ -1,0 +1,3 @@
+The constructor which takes a container to copy requires that the both containers be of the same type.
+The constructor which takes an iterator copies the values within the range, and only requires that
+the containers hold the same type of values.
