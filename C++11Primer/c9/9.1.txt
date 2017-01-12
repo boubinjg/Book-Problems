@@ -1,0 +1,6 @@
+a) list -> we may need to insert into the middle of the list. It may be advantageous to turn the
+list into a vector for later operation.
+
+b) deque -> we must access the back and front of a list. 
+
+c) vector -> we can append the integers to the back, then use std::sort.
