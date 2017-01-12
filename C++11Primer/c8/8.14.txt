@@ -1,0 +1,3 @@
+They are references because we do not know the size of the string, and do not want to copy unknown strings.
+They are const because we do not want to modify them.
+The type is deduced because we do not wantto write it outselves.
