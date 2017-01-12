@@ -1,0 +1,2 @@
+We did not use the in class initializer because we did not currently have the information necessary to initialize.
+We had to do it piece by piece through input.
