@@ -1,0 +1,2 @@
+a vector is created and given a capacity of 1024. it reads in a number of words, and is then is given
+the capacity equal to 150% of its current size

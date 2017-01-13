@@ -1,0 +1,4 @@
+256: 1024 -> must resize to a number greater than current capacity 
+512: 1024 -> same as above
+1000: 1500 -> valid number, may round off to 2048
+1048: 1572 -> valid number, may round off to 2048

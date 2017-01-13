@@ -1,0 +1,2 @@
+A vectors size is the number of values it contains.
+capacity is the number of values it can hold before it resizes

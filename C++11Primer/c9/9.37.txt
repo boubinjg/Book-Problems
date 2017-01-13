@@ -1,0 +1,2 @@
+Lists are not stored in contiguous memory and therefore do not need to resize. Arrays are not resizable and
+use their size as a component of their type, and therefore can not be resized.
