@@ -1,0 +1,4 @@
+vec.resize(100) adds 75 default initialized elements to the end of the vector. If the type of the vector
+doesn't have a default constructor, this is not possible. 
+
+vec.resize(10) removes the back 15 elements from the vector

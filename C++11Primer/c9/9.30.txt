@@ -1,0 +1,1 @@
+the type must have a default constructor.
