@@ -1,0 +1,1 @@
+we would be using an invalid iterator so the behavior would be undefined

@@ -1,0 +1,2 @@
+This would not be legal. *iter++ may be the end iterator. This would also set iter
+to the ++iter at the end of the line which would be a copy of the invalidated iterator.
