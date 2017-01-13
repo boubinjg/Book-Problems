@@ -1,0 +1,1 @@
+You could initialize a string of 100 characters, or reserve 100 characters using the reserve(100) function.
