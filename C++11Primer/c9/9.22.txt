@@ -1,0 +1,3 @@
+inserting into a vector in a loop can invalidate the iterators mid and iter. This loop may never finish. It
+can be fixed by using a list, which will doesn't store its values in contiguous chunks of memory so doesn't have to 
+resize.
