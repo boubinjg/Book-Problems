@@ -1,0 +1,2 @@
+0 is an int literal, therefore it would have to be converted to double type for accumulate
+to work properly. What happens is that the doubles all truncate, and accumulate uses integer addition.

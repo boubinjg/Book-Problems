@@ -1,0 +1,1 @@
+That would not work, as c style strings need to be compared using the strcmp function.
