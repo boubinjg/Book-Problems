@@ -1,0 +1,4 @@
+algorithms operate over iterators. algorithms themselves do not change the iterators within the container.
+A back_inserter is an iterator which changes the size of a container. using a back_inserter with an algorithm
+can change the size of a container, but it is the back_inserter not the algorithm itself which is changing the
+size.

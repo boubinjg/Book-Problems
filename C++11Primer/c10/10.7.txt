@@ -1,0 +1,6 @@
+a) vec does not have enough elements to hold the copied version of lst. To fix this, we can use
+a back inserter to vec instead of vec.begin() in the call to copy.
+
+b) simply reserving space does not provide iterable elements for fill_n to replace. These three lines could
+be reduced to simply:
+	vector<int> vec(10);
