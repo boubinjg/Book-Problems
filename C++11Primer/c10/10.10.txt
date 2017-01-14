@@ -1,0 +1,3 @@
+Algorithm do not change the size of containers so they can be as generic as possible. Containers do not all
+allow for size changes, or handle them in the same way. By making algorithms as generic as possible, we can
+use them in as many situations as possible with the same implementation.
