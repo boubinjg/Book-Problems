@@ -1,0 +1,5 @@
+a map is an associateive container which takes two templates, a key and value. Map is indexed by keys, not position,
+and a given key of any type is linked to a value.
+
+Vectors are not associative. values are indexed by position and are not associated with any key other than that.
+

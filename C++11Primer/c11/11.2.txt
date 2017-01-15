@@ -1,0 +1,19 @@
+list:
+	useful when you require fast random insertion, useful when you have data structures which you must
+	combine, such as placing list a in list b at position c where c is not the end or beginning.
+vector:
+	useful for general purpose use of the list abstract datatype. If you have a situation where you need
+	multiple values collected in one object, a vector is a good default. One example where a vector may be useful 	     over other sequential containers is when you must quickly add to a container and you don't care about the 
+	position, and you must index the collection. An example is when one reads in a vector, sorts it, and finds
+	the middle value.
+deque:
+	Useful when you must add or remove the first or last element. could be useful for implementing algorithms
+	like BFS/DFS without using the stack and queue adapters
+map:
+	an associative container which is indexed by a key and returns a value. useful for situations where you
+	have associated values such as a social security number and name, or an object and a count as to how many
+	times you've seen that object.
+set:
+	A container which holds only keys but has fast lookup. useful in situations where you only need to know
+	if you have seen a given value before. a set would be appropriate for a system which checks usernames
+	to see if that user is a premium member.
