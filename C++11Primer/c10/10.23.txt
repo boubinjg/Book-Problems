@@ -1,0 +1,1 @@
+bind takes 3 arguments in this case, the function to bind, and the two parameters 
