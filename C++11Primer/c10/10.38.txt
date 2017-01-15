@@ -1,0 +1,21 @@
+input:
+	equality operators (==, !=)
+	prefix/postfix incrementation (++)	
+	dereference (*)
+	member access (->)
+output:
+	pre/postfix incrementation (++)
+	dereference (*)
+	assignment
+forward:
+	All qualities of input/output
+	multiple reading and writing of elements
+bidirectional:
+	All qualities of forward
+	pre/postfix decrement (--)
+random access:
+	all qualities of bidirectional
+	iterator arithmetic operators (+=, -=, -, ..)
+	comparison operators (<, <=, ..)
+	subscripting ([n])
+

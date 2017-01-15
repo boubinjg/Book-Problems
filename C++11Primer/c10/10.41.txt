@@ -1,0 +1,4 @@
+replace: replaces old_val with new_val between the beg and end iterators
+replace_if: replaces values for which pred is true with newval
+replace_copy: performs replace, but copies the new values to dest
+replace_copy_if: a combination of replace_if and replace_copy

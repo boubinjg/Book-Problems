@@ -1,0 +1,2 @@
+list has a bidirectional iterator
+vector has a random-access iterator

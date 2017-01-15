@@ -1,0 +1,3 @@
+copy requires an input and output ierator, because it simply reads from one container and writes to another.
+reverse requires a bidirectional iterator
+unique requires a forward iterator
