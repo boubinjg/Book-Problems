@@ -1,0 +1,5 @@
+A back_inserter inserts an element at the back of a container
+
+A front_inserter inserts an element before the front of a container
+
+An inserter inserts an element directly before a given iterator.
