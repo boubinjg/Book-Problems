@@ -1,0 +1,3 @@
+a list holds values in a specific order, a set does not maintain an order. Lists are useful when you need to operate
+on elements or store them in a given order. a set is useful when you need to access elements only for the purpose
+of determining their existance in the set.

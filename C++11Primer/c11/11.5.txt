@@ -1,0 +1,5 @@
+A map is an associative container which takes a key and a value, and uses the key to index the value
+
+a set is an associative container which takes only a key, and is used to determine whether a key is found in the set.
+
+A map is used when the user needs to associate keys with values, whereas a set is used when a user only needs to know if a given value is in the set.
