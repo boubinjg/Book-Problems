@@ -1,0 +1,2 @@
+they each return iterators to positions where the key would be inserted to preserve the order of the map.
+equal_range returns two copies of that iterator.

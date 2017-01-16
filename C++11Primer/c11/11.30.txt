@@ -1,0 +1,2 @@
+pos.first is the first iterator in the return from equal_range, which basically denotes the lower_bound.
+->second is the mapped_type of the value_type that iterator points to.
