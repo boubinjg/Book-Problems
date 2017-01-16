@@ -1,0 +1,2 @@
+In our current implementation using subscripting, if the map file has multiple maps to one key, the last map is used.
+If we use insert, the first map would be used.

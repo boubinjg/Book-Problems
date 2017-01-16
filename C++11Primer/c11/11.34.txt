@@ -1,0 +1,1 @@
+we would have added extra values to the map, possibly creating false maps for often repeated words
