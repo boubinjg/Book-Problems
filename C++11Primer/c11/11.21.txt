@@ -1,0 +1,3 @@
+word_count attempts to insert {word, 0}, regardless of whether it is successful, it returns an iterator
+to the position of word as the first part of a pair. the .first accesses that iterator, and its reference to
+second accesses the integer associated with word. it is that integer which is incremented. 
