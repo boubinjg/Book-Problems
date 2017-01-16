@@ -1,0 +1,4 @@
+a) legal
+b) illegal, cant push_back
+c) legal
+d) legal
