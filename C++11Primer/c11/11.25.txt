@@ -1,0 +1,2 @@
+this program attempts to set v[0], the first position in the vector v, equal to one.
+This is not possible as v is of size zero.

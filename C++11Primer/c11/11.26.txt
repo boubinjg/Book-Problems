@@ -1,0 +1,10 @@
+Any type can subscript a map as long as it is the key type of the map and has comparison operators. The subscript
+operator returns the mapped type. 
+
+std::map<int, std::string> m;
+
+types which can subscript:
+	anything that can be converted implicitly to the key type;
+	
+type which is returned from subscript:
+	std::string
