@@ -1,0 +1,1 @@
+p is never deleted. the memory is never freed, so this is a memory leak

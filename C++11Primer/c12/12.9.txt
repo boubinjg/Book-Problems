@@ -1,0 +1,4 @@
+q and r creates two new dynamic integers *q = 42, *r = 100.
+r is assigned q, the int 100 is abandoned, and q and r point to 42
+r2 and q2 are both shared pointers, *r2 = 100, *q2 = 42
+r2 is assigned q2, so q2 and r2 point to 42, and the 100 value is deleted.
