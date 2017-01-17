@@ -1,0 +1,3 @@
+forcing a user to use an initializer list in the constructor instead of using conversions would force them to 
+construct temporary objects or use constructors to initialize new StrBlobs. This removes functionality from the 
+programmer, but may make StrBlob more safe from accidental type confersion.
