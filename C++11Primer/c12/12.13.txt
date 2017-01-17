@@ -1,0 +1,1 @@
+this would free the memory that sp points to, making behavior for sp undefined.

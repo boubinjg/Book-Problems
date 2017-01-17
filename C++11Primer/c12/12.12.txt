@@ -1,0 +1,4 @@
+a) sends a nullptr to process
+b) not legal, allocates a new int which is not a sharedptr and attempts to send it to process
+c) illegal. attempts to send an existing dynamic int to process
+d) legal but ill advised
