@@ -1,0 +1,6 @@
+a) illegal, ix is not a reference
+b) legal, but may cause problems
+c) legal, but may cause problems
+d) legal, legal but may cause problems
+e) legal 
+f) illegal, shared_ptrs shouldnt point to the same thing

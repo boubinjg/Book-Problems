@@ -1,0 +1,2 @@
+because we can do the same thing with its get function without destroying the shard_ptr, and destroy it 
+later if we must.
