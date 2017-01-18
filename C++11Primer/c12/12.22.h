@@ -45,9 +45,6 @@ private:
 	std::size_t curr;
 };
 
-ConstStrBlobPtr StrBlob::begin() const {return ConstStrBlobPtr(*this);}
-ConstStrBlobPtr StrBlob::end() const {return ConstStrBlobPtr(*this, data->size());}
-
 std::shared_ptr<std::vector<std::string>>
 ConstStrBlobPtr::check(std::size_t i, const std::string &msg) const
 {
@@ -63,7 +60,7 @@ std::string& ConstStrBlobPtr::deref() const
 	auto p = check(curr, "deref");
 	return (*p)[curr];
 }
-StrBlobPtr& ConstStrBlobPtr::incr()
+ConstStrBlobPtr& ConstStrBlobPtr::incr()
 {
 	check(curr, "inc");
 	++curr;
