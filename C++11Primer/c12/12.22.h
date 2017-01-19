@@ -32,8 +32,8 @@ class ConstStrBlobPtr{
 public:
 	
 	ConstStrBlobPtr(): curr(0){}
-	ConstStrBlobPtr(StrBlob &a, size_t sz = 0) :
-		wptr(a.data), curr(sz) {}
+	ConstStrBlobPtr(std::shared_ptr<StrBlob> a, size_t sz = 0) :
+		wptr(a->data), curr(sz) {}
 	std::string& deref() const;
 	ConstStrBlobPtr& incr();	
 	bool operator!=(const ConstStrBlobPtr& p) {return p.curr != curr;}

@@ -1,0 +1,1 @@
+If we used a vector, we would have to account for repeated line numbers.
