@@ -1,0 +1,1 @@
+They are both member initialization, but when copying a strblob, the shared_ptr's reference count increases.

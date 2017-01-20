@@ -1,0 +1,4 @@
+A copy constructor is a constructor which takes a reference to its type, usually a const reference, and copies
+that reference returning a new object. Copy constructors are used when new values are created using an initializer 
+list, function call, or return and the value isnt a reference. It is also used durring variable creation using 
+assignment.

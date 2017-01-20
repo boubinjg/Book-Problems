@@ -1,0 +1,4 @@
+A StrBlob has a synthesized destructor. When it is destroyed, the shated_ptr to its data is decremented, 
+and all other objects have their destructors implicitly called.
+
+StrBlobPtr simply implicitly destroys its objects. no dynamically allocated objects are destroyed.

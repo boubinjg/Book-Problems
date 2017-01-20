@@ -1,0 +1,1 @@
+accum, item1, and item2 are destroyed.

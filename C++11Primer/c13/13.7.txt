@@ -1,0 +1,3 @@
+StrBlobs are member copied, and the shared_ptr to RHS is incremeneted, and LHS is decremented.
+
+StrBlobPtr simply copies each RHS member to LHS.

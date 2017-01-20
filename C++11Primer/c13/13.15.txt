@@ -1,0 +1,2 @@
+This would change the output. Creating new serial numbers for each copy would mean the function calls would print
+three different numbers.

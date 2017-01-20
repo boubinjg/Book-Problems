@@ -1,0 +1,3 @@
+if you were to call this as a copy constructor, a copy of rhs would need to be passed to it for this function
+to work. To create a copy, you would have to call the copy constructor. This would loop forever without a 
+reference. 

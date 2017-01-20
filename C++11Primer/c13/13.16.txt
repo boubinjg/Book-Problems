@@ -1,0 +1,1 @@
+If the objects are const, f() would not copy them, so no new serial number would be generated.

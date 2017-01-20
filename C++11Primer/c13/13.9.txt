@@ -1,0 +1,2 @@
+A destructor is a function which removes objects from memory. A synthesized destructor implicitly calls the
+destructors of all data members in the class. A destructor is synthesized when no destructor is provided

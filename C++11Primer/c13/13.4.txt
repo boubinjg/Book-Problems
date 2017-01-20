@@ -1,0 +1,5 @@
+1) Point arg
+2) Point local = arg
+3) heap = new Point(global);
+4,5) point pa[4] = {local, *heap} // twice
+6) return *heap
