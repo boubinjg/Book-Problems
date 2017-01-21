@@ -1,0 +1,2 @@
+They do not allocate dynamic memory and do not need to be uniquely identifiable, so they do not need copy
+control.

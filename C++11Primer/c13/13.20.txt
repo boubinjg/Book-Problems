@@ -1,0 +1,6 @@
+TextQuery:
+	TextQuery has not static members and uses shared_ptrs so copying or assigning TextQueries
+	should not interfere with the dynamic structures.
+
+QueryResult:
+	Same for QueryResult
