@@ -10,6 +10,7 @@ public:
 	HasPtr& operator=(HasPtr& rhs) {
 		std::string tmp = *(rhs.ps);
 		i = rhs.i;
+		delete ps;
 		ps = new std::string(tmp);
 		return *this;
 	}

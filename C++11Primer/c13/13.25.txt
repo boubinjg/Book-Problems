@@ -1,0 +1,2 @@
+The class will not need a destructor because it will not be directly creating dynamic memory. The shared_ptr
+manages all dynamic memory and therefore will handle destruction of its class objects.

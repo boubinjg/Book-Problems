@@ -1,0 +1,5 @@
+If hasptr did not define a destructor, then we would never delete the dynamically allocated string, exhausting
+the heap of free memory.
+
+Not defining a copy constructor would create a synthesized copy constructor which would shallow copy the 
+dynamic string.
