@@ -1,0 +1,1 @@
+No, std::swap would do the same thing as an efficient swap function.
