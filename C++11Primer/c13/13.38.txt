@@ -1,0 +1,3 @@
+We did not use copy and swap because we needed to interact with the folder class objects. Copying and swapping
+the messages would have given each message the necessary pointers to denote the which folders contained it,
+but the folders would not be pointing to the correct messages. 

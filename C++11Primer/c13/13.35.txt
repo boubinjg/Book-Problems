@@ -1,0 +1,5 @@
+Using synthesized versions of the copy control functions would not properly allocate/deallocate the dynamic memory
+being used in the folder class. Adding/copying and removing messages should use dynamic memory which must be cleared
+be a destructor. Both allocating and deallocating dynamic memory is done in the assignment. Memory is allocated
+because each message, even if it is a copy, should be a unique entity. Memory is deallocated because it is
+dynamic.

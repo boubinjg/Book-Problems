@@ -1,0 +1,5 @@
+The parameter is a reference because we want to copy to the object itself not operate on a copy of it. We want 
+any changes to the message to persist after a copy would go out of scope. 
+
+The parameter is not const because we are either inserting or erasing from it. We could not do this with a const
+message.
