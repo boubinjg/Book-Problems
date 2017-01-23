@@ -1,0 +1,7 @@
+hp = hp2: 
+	hp2 is copy-swapped into hp. hp is copied using the copy constructor, then its values are
+	swapped using the classes swap function into hp. hp2 is unchanged.
+
+hp = std::move(hp2):
+	hp's members are set to hp2's members (ps and i). Then hp2's dynamic members (ps)
+	are nullified and deleted after hp2 goes out of scope. `

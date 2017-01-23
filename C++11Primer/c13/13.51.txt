@@ -1,0 +1,2 @@
+because the unique_ptr being returned will move directly out of scope, we can use the move constructor
+to move the unique_ptr instead of copying it on return.

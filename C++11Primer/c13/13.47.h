@@ -12,6 +12,8 @@ public:
 	String(const String&);
 	String& operator=(const String&);
 	~String();
+	String(String&&) noexcept;
+	String& operator=(String&&) noexcept; 
 	
 private:
 	std::pair<char*, char*> alloc_n_copy(const char*, const char*);
@@ -21,6 +23,19 @@ private:
 	char *end;
 	std::allocator<char> alloc;
 };
+String::String(String &&mv) noexcept
+{
+	elements = mv.elements;
+	end = mv.end;
+	mv.elements = mv.end = nullptr;
+}
+String& String::operator=(String &&mv) noexcept 
+{
+	elements = mv.elements;
+	end = mv.end;
+	mv.elements = mv.end = nullptr;
+	return *this;
+}
 void String::init(const char *first, const char* last)
 {
 	auto str = alloc_n_copy(first, last);

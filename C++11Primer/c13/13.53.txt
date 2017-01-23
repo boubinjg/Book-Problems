@@ -1,0 +1,3 @@
+The hasptr assignment operator always copies in lvalues. By not using a reference, it gets away by allowing
+rvalues to be converted to lvalues to also implement move operations, but this is less efficient than 
+implementing two operators, one for copying, and one for moving.
