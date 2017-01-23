@@ -1,0 +1,1 @@
+it would call the rvalue sorted function because foo(*this) is an rvalue.
