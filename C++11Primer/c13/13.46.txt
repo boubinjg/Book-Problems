@@ -1,0 +1,4 @@
+r1 rvalue
+r2 lvalue
+r3 lvalue
+r4 rvalue
