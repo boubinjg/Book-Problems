@@ -1,0 +1,4 @@
+a) const char*
+b) string
+c) vector
+d) string

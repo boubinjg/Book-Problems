@@ -1,0 +1,9 @@
+a) %,  should be friend
+b) %=, should be a member, not required
+c) ++, should be member, not required
+d) ->, must be a member
+e) <<, should be friend
+f) &&, should be friend
+g) ==, should be friend
+h) (), must be a member
+

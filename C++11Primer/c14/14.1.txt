@@ -1,0 +1,10 @@
+Differences: 
+Overloaded operators do not maintain evaluation ordering or short circuiting like built in operators.
+Overloaded operators do not perform conversions in some situations that normal operators would.
+Overloaded operators may not perform similar functions to their built-in counterparts
+
+Similarities:
+They can operate on built in and class types.
+They can take the same number of arguments as their built in operator counterparts.
+You may only overload operators which are built-in
+
