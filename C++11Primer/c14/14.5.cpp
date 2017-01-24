@@ -7,6 +7,11 @@ class Book
 	friend std::istream& operator>>(std::istream&, Book&);
 	friend bool operator==(Book&, Book&);
 	friend bool operator!=(Book&, Book&);
+	friend bool operator<(Book& lhs, Book& rhs);
+	friend bool operator<=(Book& lhs, Book& rhs);
+	friend bool operator>(Book& lhs, Book& rhs);
+	friend bool operator>=(Book& lhs, Book& rhs);
+
 	using page = std::vector<std::string>;
 	using pageVec = std::vector<page>;
 private:
@@ -20,6 +25,23 @@ public:
 	: ISBN(is), title(ti), author(au), pages(pv) {}
 
 };
+bool operator<(Book& lhs, Book& rhs)
+{
+	return lhs.ISBN <rhs.ISBN;
+}
+bool operator<=(Book& lhs, Book& rhs)
+{
+	return lhs.ISBN <= rhs.ISBN;
+}
+bool operator>(Book& lhs, Book& rhs)
+{
+	return rhs < lhs;
+}
+bool operator>=(Book& lhs, Book& rhs)
+{
+	return rhs <= lhs;
+}
+
 std::ostream& operator<<(std::ostream& lhs, const Book& rhs)
 {
 	lhs<<rhs.ISBN<<" "<<rhs.title<<" "<<rhs.author<<std::endl;
@@ -33,9 +55,7 @@ std::istream& operator>>(std::istream& lhs, Book& rhs)
 }
 bool operator==(Book& lhs, Book& rhs)
 {
-	return (lhs.ISBN == rhs.ISBN &&
-		lhs.title == rhs.title &&
-		lhs.author == lhs.author);
+	return lhs.ISBN == rhs.ISBN;
 }
 bool operator!=(Book& lhs, Book& rhs)
 {
