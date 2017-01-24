@@ -30,3 +30,11 @@ Sales_data operator+(Sales_data& lhs, Sales_data& rhs)
 	ret += rhs;
 	return ret;
 }
+void operator+=(Sales_data& lhs, Sales_data& rhs)
+{
+        if(lhs.bookNo == rhs.bookNo) {
+                lhs.units_sold += rhs.units_sold;
+                lhs.revenue += rhs.revenue;
+        }
+}
+

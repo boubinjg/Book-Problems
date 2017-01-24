@@ -1,0 +1,3 @@
+It is more efficient to define the + operator in terms of the += operator because + returns a value
+and += doesnt return anything, it just operates on references. If we defined += in terms of +, we would always
+have to make a copy somewhere, now we only have to make a copy once when we call +.

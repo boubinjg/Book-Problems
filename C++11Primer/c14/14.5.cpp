@@ -5,6 +5,8 @@ class Book
 {
 	friend std::ostream& operator<<(std::ostream&, const Book&);
 	friend std::istream& operator>>(std::istream&, Book&);
+	friend bool operator==(Book&, Book&);
+	friend bool operator!=(Book&, Book&);
 	using page = std::vector<std::string>;
 	using pageVec = std::vector<page>;
 private:
@@ -29,4 +31,15 @@ std::istream& operator>>(std::istream& lhs, Book& rhs)
 		rhs = Book(); 
 	return lhs;
 }
+bool operator==(Book& lhs, Book& rhs)
+{
+	return (lhs.ISBN == rhs.ISBN &&
+		lhs.title == rhs.title &&
+		lhs.author == lhs.author);
+}
+bool operator!=(Book& lhs, Book& rhs)
+{
+	return !(lhs == rhs);
+}
+//this probably doesnt need arithmetic operators.
 //should provide overloaded ==, !=, >>, and <<

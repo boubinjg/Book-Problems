@@ -6,6 +6,10 @@ class Sales_data {
 	friend std::istream& operator>>(std::istream&, Sales_data&);
 	friend std::ostream& operator<<(std::ostream&, const Sales_data&);
 	friend Sales_data operator+(Sales_data&, Sales_data&);
+	friend void operator+=(Sales_data&, Sales_data&);
+	friend bool operator==(Sales_data&, Sales_data&);
+	friend bool operator!=(Sales_data&, Sales_data&);
+
 public:
 	Sales_data(const std::string &s, unsigned n, double p) 
 		: bookNo(s), units_sold(n), revenue(n*p) {}
@@ -25,4 +29,7 @@ private:
 std::istream& operator>>(std::istream& is, Sales_data& rhs);
 std::ostream& operator<<(std::ostream&, const Sales_data&);
 Sales_data operator+(Sales_data&, Sales_data&);
+void operator+=(Sales_data&, Sales_data&);
+bool operator==(Sales_data&, Sales_data&);
+bool operator!=(Sales_data&, Sales_data&);
 #endif
