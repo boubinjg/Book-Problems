@@ -24,17 +24,22 @@ std::ostream& operator<<(std::ostream& os, const Sales_data& rhs)
 	os<<rhs.bookNo<<rhs.units_sold<<rhs.revenue;
 	return os;
 }
-Sales_data operator+(Sales_data& lhs, Sales_data& rhs)
+Sales_data Sales_data::operator+(Sales_data& rhs)
 {
-	Sales_data ret = rhs;
+	Sales_data ret = *this;
 	ret += rhs;
 	return ret;
 }
-void operator+=(Sales_data& lhs, Sales_data& rhs)
+Sales_data& Sales_data::operator+=(Sales_data& rhs)
 {
-        if(lhs.bookNo == rhs.bookNo) {
-                lhs.units_sold += rhs.units_sold;
-                lhs.revenue += rhs.revenue;
+        if(bookNo == rhs.bookNo) {
+                units_sold += rhs.units_sold;
+                revenue += rhs.revenue;
         }
+	return *this;
 }
-
+Sales_data& Sales_data::operator=(std::string s)
+{
+	bookNo = s;
+	return *this;
+}

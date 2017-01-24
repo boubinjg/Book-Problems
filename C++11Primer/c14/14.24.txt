@@ -1,0 +1,1 @@
+the book class does not need copy control. It does not need to be unique and does not manage memory.

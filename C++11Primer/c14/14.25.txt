@@ -1,0 +1,6 @@
+The class has all necessary operators:
+==, !=, <<, >>.
+All of the above operators take either a stream and a book, or two books.
+
+I have also added an overloaded assign operator which takes a string.
+This reassigns the ISBN of a book.

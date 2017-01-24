@@ -10,7 +10,7 @@ class Book
 	friend bool operator<(Book& lhs, Book& rhs);
 	friend bool operator<=(Book& lhs, Book& rhs);
 	friend bool operator>(Book& lhs, Book& rhs);
-	friend bool operator>=(Book& lhs, Book& rhs);
+	friend bool operator>=(Book& lhs, Book& rhs);	
 
 	using page = std::vector<std::string>;
 	using pageVec = std::vector<page>;
@@ -23,8 +23,13 @@ public:
 	: ISBN(is), title(ti), author(au) {}
 	Book(std::string is, std::string ti, std::string au, pageVec pv) 
 	: ISBN(is), title(ti), author(au), pages(pv) {}
-
+	Book& operator=(std::string&);
 };
+Book& Book::operator=(std::string& s)
+{
+	ISBN = s;
+	return *this;
+}
 bool operator<(Book& lhs, Book& rhs)
 {
 	return lhs.ISBN <rhs.ISBN;
