@@ -1,0 +1,1 @@
+Out class uses shared_ptrs to avoid allocating dynamic memory, so we do not need copy control members.
