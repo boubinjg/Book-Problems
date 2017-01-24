@@ -1,0 +1,2 @@
+We did not define const versions of these operators because the change the underlying data. Const versions
+would not be able to do this.

@@ -46,7 +46,7 @@ class ConstStrBlobPtr{
 	friend bool operator<=(ConstStrBlobPtr&, ConstStrBlobPtr&);
 	friend bool operator>(ConstStrBlobPtr&, ConstStrBlobPtr&);
 	friend bool operator>=(ConstStrBlobPtr&, ConstStrBlobPtr&);
-
+	
 public:
 	
 	ConstStrBlobPtr(): curr(0){}
@@ -57,7 +57,14 @@ public:
 	bool operator!=(const ConstStrBlobPtr& p) {return p.curr != curr;}
 	std::string& operator[](size_t n) {auto p = check(n, "out of range"); return (*p)[n];}
 	const std::string& operator[](size_t n) const {auto p = check(n, "out of range"); return (*p)[n];}
-	
+	ConstStrBlobPtr& operator++();
+	ConstStrBlobPtr& operator--();
+	ConstStrBlobPtr operator++(int);
+	ConstStrBlobPtr operator--(int);
+	ConstStrBlobPtr operator+(size_t n);
+	ConstStrBlobPtr operator-(size_t n);
+	ConstStrBlobPtr& operator+=(size_t n);
+	ConstStrBlobPtr& operator-=(size_t n);
 private:
 	std::shared_ptr<std::vector<std::string>> 
 	check(std::size_t, const std::string&) const;
@@ -65,6 +72,56 @@ private:
 	std::weak_ptr<std::vector<std::string>> wptr;
 	std::size_t curr;
 };
+ConstStrBlobPtr& ConstStrBlobPtr::operator+=(size_t n)
+{
+	curr -= n;
+	check(curr, "inc past end");
+	return *this;
+}
+ConstStrBlobPtr& ConstStrBlobPtr::operator-=(size_t n)
+{
+	curr += n;
+	check(curr, "int past end");
+	return *this;
+}
+ConstStrBlobPtr ConstStrBlobPtr::operator+(size_t n)
+{
+	ConstStrBlobPtr ret = *this;
+	ret += n;
+	return ret;
+}
+ConstStrBlobPtr ConstStrBlobPtr::operator-(size_t n)
+{
+	ConstStrBlobPtr ret = *this;
+	ret -= n;
+	return ret;
+}
+ConstStrBlobPtr& ConstStrBlobPtr::operator++()
+{
+	check(curr, "inc past end");
+	++curr;
+	return *this;
+}
+ConstStrBlobPtr& ConstStrBlobPtr::operator--()
+{
+	--curr;
+	check(curr, "dec past begin");
+	return *this;
+
+}
+ConstStrBlobPtr ConstStrBlobPtr::operator++(int)
+{
+	ConstStrBlobPtr ret = *this;
+	++*this;
+	return ret;
+}
+ConstStrBlobPtr ConstStrBlobPtr::operator--(int)
+{
+	ConstStrBlobPtr ret = *this;
+	--*this;
+	return ret;
+}
+
 bool operator<(ConstStrBlobPtr& lhs, ConstStrBlobPtr& rhs)
 {
 	return lhs.curr < rhs.curr;
