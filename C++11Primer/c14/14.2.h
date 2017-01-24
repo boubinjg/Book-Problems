@@ -4,7 +4,7 @@
 #include <iostream>
 class Sales_data {
 	friend std::istream& operator>>(std::istream&, Sales_data&);
-	friend std::ostream& operator<<(std::ostream&, Sales_data&);
+	friend std::ostream& operator<<(std::ostream&, const Sales_data&);
 	friend Sales_data operator+(Sales_data&, Sales_data&);
 public:
 	Sales_data(const std::string &s, unsigned n, double p) 
@@ -23,6 +23,6 @@ private:
 	double revenue = 0.0;
 };
 std::istream& operator>>(std::istream& is, Sales_data& rhs);
-std::ostream& operator<<(std::ostream&, Sales_data&);
+std::ostream& operator<<(std::ostream&, const Sales_data&);
 Sales_data operator+(Sales_data&, Sales_data&);
 #endif

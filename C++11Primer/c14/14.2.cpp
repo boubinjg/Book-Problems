@@ -11,10 +11,15 @@ Sales_data& Sales_data::operator+=(const Sales_data& rhs)
 }
 std::istream& operator>>(std::istream& is, Sales_data& rhs)
 {
-	is>>rhs.bookNo>>rhs.units_sold>>rhs.revenue;
+	double price;
+	is>>rhs.bookNo>>rhs.units_sold>>price;
+	if(is)
+		rhs.revenue = rhs.units_sold * price;
+	else
+		rhs = Sales_data();
 	return is;
 }
-std::ostream& operator<<(std::ostream& os, Sales_data& rhs)
+std::ostream& operator<<(std::ostream& os, const Sales_data& rhs)
 {
 	os<<rhs.bookNo<<rhs.units_sold<<rhs.revenue;
 	return os;

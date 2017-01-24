@@ -4,6 +4,7 @@
 class Book 
 {
 	friend std::ostream& operator<<(std::ostream&, const Book&);
+	friend std::istream& operator>>(std::istream&, Book&);
 	using page = std::vector<std::string>;
 	using pageVec = std::vector<page>;
 private:
@@ -20,5 +21,12 @@ public:
 std::ostream& operator<<(std::ostream& lhs, const Book& rhs)
 {
 	lhs<<rhs.ISBN<<" "<<rhs.title<<" "<<rhs.author<<std::endl;
+}
+std::istream& operator>>(std::istream& lhs, Book& rhs)
+{
+	lhs>>rhs.ISBN>>rhs.title>>rhs.author;
+	if(!lhs)
+		rhs = Book(); 
+	return lhs;
 }
 //should provide overloaded ==, !=, >>, and <<

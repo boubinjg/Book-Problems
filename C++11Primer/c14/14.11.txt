@@ -1,0 +1,2 @@
+Errors would occur if the input fails. If the user does not input in the proper order, the
+values will not be properly initialized and the calculations below will fail.

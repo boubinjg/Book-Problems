@@ -1,0 +1,3 @@
+a) performs correctly
+b) reads in bookNo as "10", units_sold as 24 and breaks on price.
+	rhs is default initialized.
