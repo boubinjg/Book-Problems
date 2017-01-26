@@ -12,6 +12,8 @@ class Book
 	friend bool operator>(Book& lhs, Book& rhs);
 	friend bool operator>=(Book& lhs, Book& rhs);	
 
+	explicit operator bool() {return ISBN != "";}
+
 	using page = std::vector<std::string>;
 	using pageVec = std::vector<page>;
 private:

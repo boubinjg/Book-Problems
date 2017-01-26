@@ -1,0 +1,2 @@
+The book class doesn't need a conversion to bool. There is no obvious correspondence between books and bools.
+(maybe fiction books should return false, and nonfiction should return true).
