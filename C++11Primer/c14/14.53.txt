@@ -1,0 +1,3 @@
+ambiguous, cant decide to use the builtin + or the smallint +.
+
+To fix you can explicitly cast one of the values to the other.

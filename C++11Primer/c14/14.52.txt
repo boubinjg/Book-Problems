@@ -1,0 +1,2 @@
+The first one is ambiguous because it requires conversions on either side.
+The second one applies the longdouble + which takes a smallint.
