@@ -1,0 +1,2 @@
+ex1 could be converted from either a float or a double and is therefore ambiguous
+ex2, legal because it is directly a float.
