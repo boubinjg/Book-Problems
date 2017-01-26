@@ -1,0 +1,6 @@
+I assume lambdas were added to simplify the function object process. creating a class just to overload an operator
+is verbose. Using a lambda can be simpler and more effective, especially if you do not need any other features of
+a class.
+
+I would use a lambda when I simply needed an unnamed function, and I would create a class when I would need
+the class to have other abilities.
