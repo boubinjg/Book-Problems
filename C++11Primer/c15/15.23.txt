@@ -1,0 +1,5 @@
+you could remove the int parameter and it would override the base class function automatically.
+
+bp2->fcn() would call D1's fcn()
+
+
