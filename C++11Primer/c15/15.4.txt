@@ -1,0 +1,4 @@
+a) illegal, a class cant be a derived class of itself
+b) legal
+c) illegal, derived classes are specified in the definition, not declaration.
+
