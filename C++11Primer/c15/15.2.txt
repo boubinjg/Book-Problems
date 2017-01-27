@@ -1,0 +1,3 @@
+Private members are accessible to only the class which defines them.
+
+protected members are accessible to only the class which defines them and its derived classes.

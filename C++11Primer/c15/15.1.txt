@@ -1,0 +1,3 @@
+A virtual member is a function in a class which all derived classes are required to define. When an object of
+the type of any of these classes is used to call a virtual function, the function called is determined through
+dynamic binding. 
