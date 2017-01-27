@@ -1,0 +1,2 @@
+It is useful if you want to override the virtual function of a base class, but dont want any derived classes
+to override that function.

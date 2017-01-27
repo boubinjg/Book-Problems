@@ -1,0 +1,6 @@
+a) compile, object
+b) compile, object
+c) compile, not virtual
+d) compile, not virtual
+e) runtime
+f) runtime
