@@ -1,0 +1,3 @@
+The read function takes an istream. We can use any derived class of istream, including ifstream, to 
+read in data. This function would use virtual functions which all istreams implement so all istream derived
+classes are safe to use.

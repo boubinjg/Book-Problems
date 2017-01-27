@@ -1,0 +1,4 @@
+1) a reference to a derived class is assigned a value of a base class.
+2) an expression uses objects of a derived class which are assigned values of a base class, and
+therefore yeilds a base class object instead of a derived class object.
+3) a pointer to a derived class points instead to base class

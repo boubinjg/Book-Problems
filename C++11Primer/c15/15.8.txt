@@ -1,0 +1,7 @@
+static type:
+The type of an object at compile time. Usually the type the object is declared as.
+
+dynamic type:
+the type of an object at compile time. If a reference of a base class is set to refer to
+a derived class object, its static type would be of the base class, but it would be
+resolved at compile time to be the derived class.
