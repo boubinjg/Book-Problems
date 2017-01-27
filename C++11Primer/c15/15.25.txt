@@ -1,0 +1,2 @@
+The default constructor for bulk_quote calls the default constructor for disc_quote. If we did not have a default
+constructor for disc_quote, we would preclude all derived classes from having or using default constructors.
