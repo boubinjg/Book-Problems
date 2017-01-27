@@ -1,0 +1,3 @@
+All base classes need a virtual destructor. A virtual destructor must act as a normal destructor for each
+class in the hierarchy. The significance is that when an object is destructed, its dynamic type destructor
+is called, instead of its static type destructor if the destructor were not virtual.
