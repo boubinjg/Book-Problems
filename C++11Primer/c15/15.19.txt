@@ -1,0 +1,3 @@
+pub_derv: legal
+prot_derv: legal
+priv_derv: illegal

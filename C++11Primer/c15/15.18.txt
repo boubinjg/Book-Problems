@@ -1,0 +1,6 @@
+1) legal
+2) illegal, private derived classes dont convert
+3) illegal, protected derived classes also dont convert outside of the class body
+4) legal
+5) illegal
+6) illegal

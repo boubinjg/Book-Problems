@@ -1,0 +1,17 @@
+The classes would possibly have a virtual draw function which could draw that shape. They could also have
+a virtual mutator functions used to change color, location and size information.
+
+protected members for shape:
+center x, center y, color. Shape would be abstract
+
+private members for box:
+size
+
+protected members for circle:
+radius: derived classes may want to modify/access this
+
+private members for cone:
+height
+
+private members for sphere:
+z center
