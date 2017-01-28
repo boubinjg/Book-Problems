@@ -8,6 +8,9 @@ public:
 		bookNo(book), price(sales_price) {} 
 	std::string isbn() const {return bookNo;}
 	
+	virtual Quote* clone() const & {return new Quote(*this);}
+	virtual Quote* clone() && {return new Quote(std::move(*this));}
+
 	Quote(const Quote& rhs) : price(rhs.price), bookNo(rhs.bookNo) 
 	{std::cout<<"Quote copy"<<std::endl;}
 	Quote(const Quote&& rhs) noexcept : price(std::move(rhs.price)), bookNo(std::move(rhs.bookNo)) 
@@ -50,6 +53,9 @@ public:
 	void debug() const override {std::cout<<"BULK_QUOTE: "<<isbn()<<" "<<price
 		                      <<" "<<min_qty<<" "<<discount<<std::endl;} 
 		
+	virtual Bulk_quote* clone() const & {return new Bulk_quote(*this);}
+	virtual Bulk_quote* clone() && {return new Bulk_quote(std::move(*this));}
+
 	Bulk_quote(const Bulk_quote& rhs) : Quote(rhs), min_qty(rhs.min_qty), discount(rhs.discount) 
 	{std::cout<<"Bulk_quote copy"<<std::endl;}
 	Bulk_quote(const Bulk_quote&& rhs) noexcept : Quote(std::move(rhs)), min_qty(std::move(rhs.min_qty)),
@@ -98,3 +104,13 @@ bool operator!=(const Bulk_quote& lhs, const Bulk_quote& rhs)
 	        lhs.discount == rhs.discount && 
 		lhs.min_qty == rhs.min_qty;
 }
+
+double Bulk_quote::net_price(size_t cnt) const
+{
+        if(cnt >= min_qty)
+                return cnt * (1-discount) * price;
+        else
+                return cnt * price;
+}
+Bulk_quote::Bulk_quote(const std::string& book, double p, size_t qty, double disc) :
+        Quote(book, p), min_qty(qty), discount(disc) {}
