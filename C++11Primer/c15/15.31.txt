@@ -1,0 +1,3 @@
+1) orQury(s1, andQuery), andQuery(s2, notQuery(s3))
+2) same as above
+3) orQuery( andQuery(s1, s2), andQuery(s3, s4))
