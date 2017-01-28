@@ -1,5 +1,7 @@
 #include<string>
 #include<iostream>
+#ifndef QUOTE_H
+#define QUOTE_H
 class Quote{
 public:
 	Quote() = default;
@@ -49,3 +51,4 @@ double print_total(std::ostream &os, const Quote &item, size_t n)
 
 	return ret;
 }
+#endif

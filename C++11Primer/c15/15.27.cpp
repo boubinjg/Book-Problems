@@ -1,4 +1,4 @@
-#include"15.27.h"
+include"15.27.h"
 
 double Bulk_quote::net_price(size_t cnt) const 
 {
