@@ -56,12 +56,21 @@ public:
 	discount(std::move(rhs.discount)) {std::cout<<"Bulk_quote move";}
 	Bulk_quote& operator=(const Bulk_quote& rhs)
 	{
-		Quote::operator=(rhs);
+		if(*this != rhs) {
+			Quote::operator=(rhs);
+			discount = rhs.discount;
+			min_qty = rhs.min_qty;
+		}
+		std::cout<<"Bulk_quote move"<<std::endl;
 		return *this;
 	}
 	Bulk_quote& operator=(const Bulk_quote&& rhs) noexcept
 	{
-		Quote::operator=(std::move(rhs));
+		if(*this != rhs) {
+			Quote::operator=(std::move(rhs));
+			discount = rhs.discount;
+			min_qty = rhs.min_qty;
+		}
 		std::cout<<"Bulk_quote move assign"<<std::endl;
 		return *this;
 	}
@@ -82,4 +91,10 @@ double print_total(std::ostream &os, const Quote &item, size_t n)
 bool operator!=(const Quote& lhs, const Quote& rhs)
 {
 	return (lhs.bookNo == rhs.bookNo) && (lhs.price == rhs.price);
+}
+bool operator!=(const Bulk_quote& lhs, const Bulk_quote& rhs)
+{
+	return  operator!=(Quote(rhs), Quote(lhs)) && 
+	        lhs.discount == rhs.discount && 
+		lhs.min_qty == rhs.min_qty;
 }
