@@ -1,5 +1,5 @@
 #include<vector>
-#include"15.27.h"
+#include"15.26.h"
 #include<memory>
 
 double Bulk_quote::net_price(size_t cnt) const
@@ -9,6 +9,8 @@ double Bulk_quote::net_price(size_t cnt) const
         else
                 return cnt * price;
 }
+Bulk_quote::Bulk_quote(const std::string& book, double p, size_t qty, double disc) :
+        Quote(book, p), min_qty(qty), discount(disc) {}
 
 
 int main()
