@@ -1,0 +1,3 @@
+Query_base again has synthesized, memberwise copy control. Query_base has a virtual destructor and therefore
+does not support move operations. Move operations are handled by the copy constructor/assignment operator.
+When a Query_base object is destructed, it's dynamic object type construct is called.
