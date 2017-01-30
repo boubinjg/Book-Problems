@@ -1,0 +1,3 @@
+a) Query_base, TextQuery, orQuery, andQuery, wordQuery, BinaryQuery
+b) binary_Query->orQuery->andQuery->wordQuery
+c) QueryResult

@@ -1,0 +1,2 @@
+a) illegal, BinaryQuery is abstract
+b/c) illegal, Query is not converted to its derived types
