@@ -1,0 +1,4 @@
+Instantition is the process of creating an instance of something. In terms of template functions,
+an instance of a template function is one which takes a certain combination of typed arguments. 
+A function which takes one template argument may have an in instantiation in which that template argument
+is a vector, and another where it is a string. 
