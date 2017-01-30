@@ -30,7 +30,7 @@ QueryResult NotQuery::eval(const TextQuery& text) const
 			++beg;
 	}
 	return QueryResult(rep(), ret_lines, results.get_file());
-a}
+}
 int main()
 {
 	return 0;
