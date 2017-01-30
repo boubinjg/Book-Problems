@@ -1,0 +1,4 @@
+iterators should implement equality operators by default. Knowing whether two iterators are the same is a
+fundimental requirement of many algorithms. Many iterators do not implement comparison operators. To make
+a program as generic as possible, it is best to use != instead of comparison operators because many common
+iterators do not implement those operators.
