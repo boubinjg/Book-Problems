@@ -1,0 +1,2 @@
+If one returned an empty set, ret_lines would just have less content. If both returned nothing, ret_lines would
+be empty. This is not an issue for the program.
