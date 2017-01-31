@@ -1,0 +1,2 @@
+The ListItems used in the class do not specify a template argument. To change this, I would give them
+the elemType template argument, so they match the List class.

@@ -1,0 +1,3 @@
+A function template is a function which takes generic arguments.
+
+A class template is a class which includes generic functions and datamembers.

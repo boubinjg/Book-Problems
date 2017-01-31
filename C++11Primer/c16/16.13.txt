@@ -1,0 +1,2 @@
+My Blob and BlobPtr classes have one to one friendship. No pointer to a Blob should be of a different template
+type, so each Blob<T> can have a BlobPtr<T>, but not a BlobPtr of any other type.
