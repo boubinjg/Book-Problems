@@ -1,0 +1,2 @@
+The class template arguments are the old standard, and typename the new standard. There is no functional difference
+between the two. You do, however, have to use typename to specify that a template argument is a type

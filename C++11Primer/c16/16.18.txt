@@ -1,0 +1,5 @@
+a) no typename before u
+b) Can't declare int T, the name T is taken.
+c) inline goes after template
+d) no return type
+e) fine, but may not work as intended
