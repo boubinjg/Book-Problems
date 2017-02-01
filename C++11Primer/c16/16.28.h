@@ -49,10 +49,46 @@ public:
 		return *ptr;
 	}
 	Shared_ptr& operator=(const T& v) {
-		
+		*ptr = v;
 	}
 private:
 	int refCount = 0;
 	T* ptr = nullptr;
 	std::function<void(T*)> deleter;
+};
+
+template <typename T, typename D = std::function<void(T*)>>
+class Unique_ptr{
+public:	
+	Unique_ptr(D del) : ptr(new T), deleter(del) {}
+	Unique_ptr(T* p, D del) : ptr(p), deleter(del) {}
+	Unique_ptr(Unique_ptr&& p) : ptr(std::move(p.ptr)), deleter(std::move(p.deleter)) 
+		{p.ptr = nullptr;}
+	Unique_ptr& operator=(const Unique_ptr&& p) {
+		if(p.ptr != ptr) {
+			ptr = std::move(p.ptr);
+			deleter = p.deleter;
+			p.ptr = nullptr;
+		}
+	}
+	~Unique_ptr() {
+		std::cout<<"Calling Deleter"<<std::endl;
+		deleter(ptr);
+	}
+	void del(T* p) {
+		std::cout<<"in Unique deleter"<<std::endl;
+		delete p;
+	}
+	void addDel(D d) {
+		deleter = d;
+	}
+	T get() {
+		return *ptr;
+	}
+	Unique_ptr& operator=(const T& v) {
+		*ptr = v;
+	}
+private:
+	T* ptr = nullptr;
+	D deleter;
 };
