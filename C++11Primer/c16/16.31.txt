@@ -1,0 +1,2 @@
+The unique_ptr deleter is known at compile time unlike the shared_ptr deleter. Using debugdelete with unique_ptr
+provides a small deleter function which is easily inlined by the compiler.
