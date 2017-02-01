@@ -1,0 +1,6 @@
+a) only instantiated if the function is every used.
+b) instantiated
+c) instantiated
+d) instantiated 
+e) no instantiation
+f) instantiated

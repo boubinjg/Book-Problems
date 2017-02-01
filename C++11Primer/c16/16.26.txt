@@ -1,0 +1,2 @@
+No, because vector's constructors require objects of its template type have default constructors themselves.
+Vector<T>(size_type n) creates vector of n default initialized ints. This can't be done with a NoDefault vector.

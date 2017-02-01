@@ -1,0 +1,2 @@
+a) explicitly instantiates vector<T> where T is string
+b) declaration of an explicitly instantiated template class.
