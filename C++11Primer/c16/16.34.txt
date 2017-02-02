@@ -1,0 +1,2 @@
+a) illegal, hi is a const char[3] and world is a const char[6] 
+b) legal, the arrays are the same size

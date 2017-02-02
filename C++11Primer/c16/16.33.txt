@@ -1,0 +1,2 @@
+1) converting pointers/refs to const to pointers/refs to nonconst
+2) converting function/array objects to pointers.

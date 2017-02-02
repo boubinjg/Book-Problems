@@ -1,0 +1,6 @@
+a) p1 and p2 are deduced as int* 
+b) p1 and p2 are again deduced as int*
+c) both are deduced as int const* 
+d) both are deduced as int const*
+e) illegal, one int* and one int const*
+f) one int* and one int const*

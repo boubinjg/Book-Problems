@@ -1,0 +1,3 @@
+Template arguments types are used without conversion to instantiate template functions/classes.
+Some conversions are allowed: such as ignoring top level const, converting low level const, and array/function
+to pointer conversions, if the array/function is not a reference.

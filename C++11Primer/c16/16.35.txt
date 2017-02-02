@@ -1,0 +1,4 @@
+a) legal, type is char
+b) legal, type is double, f is converted to an int
+c) legal, type is char
+d) illegal, arguments don't have the same type.
