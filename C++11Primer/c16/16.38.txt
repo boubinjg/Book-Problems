@@ -1,0 +1,2 @@
+The shared_ptr class requires and explicit template argument because the compiler must instantiate a version of
+shared_ptr which replaces the template argument with the specified type. 
