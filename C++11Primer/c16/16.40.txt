@@ -1,0 +1,2 @@
+the arguments must be the same type and they must be pointers. The arguments must also be able to support
+the + operator with an int lhs. The return type depends on what *beg+0 returns.
