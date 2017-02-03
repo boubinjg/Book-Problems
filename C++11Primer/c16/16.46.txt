@@ -1,0 +1,4 @@
+This loop iterates over the strvec and constructs a new strvec by moving each element of the original
+strvec into the new one. The loop calls std::move on the lvalue held at *elem. std::move takes a std::string&&,
+but *elem collapses to a std::string&. the static cast in move turns *elem into a std:string by removing
+its reference, and turns it into a std::string&& to be returned. 
