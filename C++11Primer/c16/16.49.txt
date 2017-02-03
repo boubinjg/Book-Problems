@@ -1,8 +1,8 @@
-a)
-b)
-c)
-d)
-e)
-f)
-g)
-h)
+a) g(T) where T is int&&
+b) g(T*) where T is int*
+c) g(T) where T is int
+d) g(T*) where T is const int* 
+e) f(T) where T is int&&
+f) f(T) where T is int*
+g) f(T) where T is int
+h) f(T) where T is const int*
