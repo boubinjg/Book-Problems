@@ -1,0 +1,3 @@
+svec.emplace_back(s) will add one element to the back of the strvec. S is passed as an rvalue
+reference to emplace_back, and the rvalue reference is forwarded to the allocator's construct
+function, so the rvalue reference itself is added to the back of the strvec
