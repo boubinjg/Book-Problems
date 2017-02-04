@@ -1,0 +1,12 @@
+foo(i,s,42,d)
+	sizeof ... (Args): 3
+	sizeof ... (rect): 3
+foo(s,42,"hi")
+	args: 2
+	rect: 2
+foo(d,s)
+	args: 1
+	rect: 1
+foo("hi")
+	args: 0
+	rect: 0
