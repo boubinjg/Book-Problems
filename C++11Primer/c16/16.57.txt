@@ -1,0 +1,2 @@
+The initializer list version on page 220 is easier to understand, but the variadic version can print 
+error messages for any type which overloads the << operator.
