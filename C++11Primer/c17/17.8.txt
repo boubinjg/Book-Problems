@@ -1,0 +1,2 @@
+Sales_data objects are only supposed to be operated on by sales_data objects with the same isbn. If we used
+Sales_data(), s would have to have an isbn of "" for us to get a result that is correct.
