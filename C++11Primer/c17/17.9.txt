@@ -1,0 +1,3 @@
+a) a 64 bit set of bits, with bit 6 flipped representing 32
+b) a 32 bit bitvec initialized to the bit pattern of unsigned long long 1010101
+c) a set of bits initialized to the first 8 characters in the string 
