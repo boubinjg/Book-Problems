@@ -1,0 +1,3 @@
+Defining specializations does not effect function matching, as they are just instances of a template.
+If the template decides its type matches a debug_rep specialization, it will use it, but this happens after
+function matching. 
