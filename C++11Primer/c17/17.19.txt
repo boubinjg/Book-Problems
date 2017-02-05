@@ -1,0 +1,2 @@
+if m[4] was matche, we will get either a ., a - or a space. Otherwise we get the empty string. As long as these
+values are equal, it doesn't matter if they are any of the above options.
