@@ -1,0 +1,2 @@
+If we defined b and e inside the loop, we would receive the same result every time. by creating new
+distributions with the same seed, we will always receive the same result every time we loop.
