@@ -1,0 +1,4 @@
+it is important that what() doesn't throw because it is a function which will likely be called inside 
+a catch block. It would be cumbersome for the programmer to have to handle exceptions in a situation where
+a function will only be called durring the handling of another exception. It would add a new and ironic layer of 
+complexity to exception handling if the exception handler could throw exceptions in as basic a way as this.

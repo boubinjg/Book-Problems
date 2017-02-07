@@ -1,0 +1,51 @@
+#include"14.2.h"
+
+Sales_data::Sales_data(std::istream &is)
+{
+	is >> *this;
+}
+Sales_data& Sales_data::operator+=(const Sales_data& rhs)
+{
+	if(isbn() != rhs.isbn()) {
+		std::cout<<"except"<<std::endl;
+		throw isbn_mismatch("wrond isbn", isbn(), rhs.isbn());
+	}
+	std::cout<<isbn()<<" "<<rhs.isbn()<<std::endl;
+	units_sold += rhs.units_sold;
+	revenue += rhs.revenue;
+	return *this;
+}
+std::istream& operator>>(std::istream& is, Sales_data& rhs)
+{
+	double price;
+	is>>rhs.bookNo>>rhs.units_sold>>price;
+	if(is)
+		rhs.revenue = rhs.units_sold * price;
+	else
+		rhs = Sales_data();
+	return is;
+}
+std::ostream& operator<<(std::ostream& os, const Sales_data& rhs)
+{
+	os<<rhs.bookNo<<rhs.units_sold<<rhs.revenue;
+	return os;
+}
+Sales_data Sales_data::operator+(Sales_data& rhs)
+{
+	Sales_data ret = *this;
+	ret += rhs;
+	return ret;
+}
+Sales_data& Sales_data::operator+=(Sales_data& rhs)
+{
+        if(bookNo == rhs.bookNo) {
+                units_sold += rhs.units_sold;
+                revenue += rhs.revenue;
+        }
+	return *this;
+}
+Sales_data& Sales_data::operator=(std::string s)
+{
+	bookNo = s;
+	return *this;
+}
