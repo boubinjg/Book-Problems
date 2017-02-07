@@ -1,0 +1,2 @@
+You might use an unnamed namespace to create static variables in a header file which you would like to use
+in an impelementation file.
