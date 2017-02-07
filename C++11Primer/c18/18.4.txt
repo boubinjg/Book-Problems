@@ -1,0 +1,2 @@
+The catch statements are in a descending order of specificity. Any exception that would be caught by
+the second or third catch are already caught by the first statement, so the next two are never used.
