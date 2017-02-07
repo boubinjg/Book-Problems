@@ -1,0 +1,3 @@
+a) range_error
+b) exception (it is stripped down)
+c) you cant throw a pointer to a local object so that is an error

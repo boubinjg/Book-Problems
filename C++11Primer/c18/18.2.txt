@@ -1,0 +1,2 @@
+Vector v and ifstream e are destroyed. none of the pointers are deallocated.
+p's memory becomes inaccessible, and b and e must be deallocated elsewhere if they point to dynamic memory.
