@@ -1,0 +1,5 @@
+using a directive, in both positions there would be a name ambiguity with both ivar. You would need to
+destinguish ivar, as is done with ::ivar, to use either version.
+
+using a declaration, in position one, ivar will collide with Exercise::ivar, and in position two,
+dvar will collide.
