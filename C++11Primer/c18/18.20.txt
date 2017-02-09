@@ -16,3 +16,7 @@ preprocessor.
 to call ::compute(double, double), 0 must be converted to a double.
 
 compute(int) is chosen.
+
+
+If a using declaration were put in the main, only the primerLib const void* function would be
+viable as functions in the outer scope would be ignored.
