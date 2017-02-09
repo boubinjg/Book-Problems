@@ -1,0 +1,3 @@
+a) creates CADVehicle class which inherets publicy from CAD and privately from Vehicle
+b) Error, can not inheret from the same class twice
+c) publicly inherets both istream and ostream
