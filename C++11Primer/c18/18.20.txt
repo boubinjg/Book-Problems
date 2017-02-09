@@ -1,0 +1,18 @@
+Candidate functions:
+	primerLib::compute();
+	primerLib::compute(const void*);
+	::compute(int);
+	::compute(double, double);
+	::compute(char*, char*);
+
+viable functions:
+	primerLib::compute(const void*);
+	::compute(int);
+	::compute(double, double); //default argument
+	::compute(char*, char*); //default argument
+
+to call ::compute(char*, char*) or primerLib::(const void*) 0 would have to be converted to a null by the 
+preprocessor.
+to call ::compute(double, double), 0 must be converted to a double.
+
+compute(int) is chosen.
