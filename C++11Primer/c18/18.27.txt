@@ -1,14 +1,21 @@
-a) 	D1::print
-   	D2::print
-	Base1::print
-	Base2::print
-	MI::ival
-	MI::dval
-	cval
-	int dval;
-	all values in all base classes, and the values in MI
+a) 	Base1::
+		print(int) const;
+		ival;
+		dval;
+		cval;
+	Base2::
+		print(double) const;
+		fval;
+	Derived:: 
+		print(std::string) const;
+		sval;
+		dval;
+	MI::
+		print(std::vector<double>);
+		ival;
+		dvec;
 b)
-	print is visible from every base class
+	print, dval, ival
 c)
 	dval = Derived::dval + Base1::dval
 d)
