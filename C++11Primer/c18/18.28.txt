@@ -1,0 +1,10 @@
+The following can be accessed without qualification:
+Derived2::ival, Derived1::bar()
+
+The following require qualification:
+Base::bar
+Base::ival
+Derived1::foo()
+Derived1::cval
+Derived2::foo()
+Derived2::cval
