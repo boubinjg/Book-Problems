@@ -1,0 +1,10 @@
+The following call is illegal because it there are definitions of print() in both inheritance hierarchies
+which derive MI. 
+
+To resolve this issue, we can give MI its own print function which can call both prints.
+
+void MI::print(int i)
+{
+	D1::print(i);
+	D2::print(i);
+}
