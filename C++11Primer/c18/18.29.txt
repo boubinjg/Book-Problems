@@ -1,0 +1,7 @@
+A) Class, Base, D1, D2, MI, Class  
+B) 1 Base part, 2 Class parts
+C) 	
+	A) error
+  	B) Error
+	C) Error
+	D) legal
