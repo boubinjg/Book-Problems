@@ -1,0 +1,6 @@
+A) pb1->print() : base1::print
+B) pd1->print() : D1::print
+C) pd2->print() : D2::print()
+D) delete pb2 : calls MI destructor
+E) delete pd1 : calls MI destructor
+F) delete pd2 : calls MI destructor

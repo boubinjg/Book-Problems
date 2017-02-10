@@ -1,0 +1,5 @@
+zooAnimal *pb = new Pans("ying_yand");
+pb->print() : cals Panda::print() assuming print is virtual
+pb->cuddle() : illegal zooAnimal doesn't have a member highlight
+pb->highlight() : illegal, zooAnimal doesn't have a member highlight
+delete pd : runs panda destructor
