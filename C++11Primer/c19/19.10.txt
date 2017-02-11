@@ -1,0 +1,3 @@
+a) C pointer
+b) C pointer 
+c) B value
