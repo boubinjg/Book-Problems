@@ -1,0 +1,2 @@
+A pointer to a member of a class includes the class scope. When we create a pointer to a class member,
+we are not creating a pointer to the type of that member, but a new type class::member. 
