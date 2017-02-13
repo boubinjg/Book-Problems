@@ -1,0 +1,2 @@
+C does not support function overloading, so the two overloaded functions can not both be extern "C" functions.
+One could be a c++ function and the other could be linked, but not both
