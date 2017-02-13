@@ -1,0 +1,3 @@
+If we assign a token to itself, it will move through the copy assign constructor which would do basically nothing.
+If tok is a class value, we will just assign the token its own version of that value into its own already allocated
+memory. Then nothing is destructed and the tok value remains unchanged.
