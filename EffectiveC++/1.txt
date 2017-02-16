@@ -1,0 +1,13 @@
+- C++ has evolved from a simple C extension
+
+- C++ is multiparadigm, supporting procedural, OO, functional, generic, and metaprogramming paradigms.
+
+4 sublanguages:
+	C
+	OO C++
+	Template C++
+	the STL
+
+- pass by value is usually faster for c builtin types, but not for C++ class objects
+
+- rules for effective programming depend on which sublanguage you are using.
