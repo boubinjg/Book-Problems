@@ -1,0 +1,16 @@
+treat class design like type design
+
+Questions to ask during class design:
+
+is a new type really what you need?
+how should objects be created/destroyed
+how should object initialization differ from assignment
+what does it mean for an object of this type to be passed by value?
+what are the restrictions on legal values of this type?
+does this type fit into an inheritance hierarchy?
+what kind of type conversions are allowed? (also think about implicit conversions)
+what operations and functions make sense for the new type?
+what standard functions should be disallowed?
+what should have access to the members of your new type?
+what is the undeclared interface of this type?
+how general is this type?
