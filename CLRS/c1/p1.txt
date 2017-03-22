@@ -1,0 +1,11 @@
+         1 second, 1 minute, 1 hour, 1 day, 1 month, 1 year, 1 century
+lg n     e^1m      e^60m     e^3.6b  3^86b  e^2.5t   e^964t   e^94.6q
+root n   1m^2      60m^2     3.6b^2  86b^2  2.5t^2   964t^2   94.6q^2 
+n        1m        60m       3.6b    86.4b  2.592t   946t     94.6q 
+n lg n   87k       390k      18m     3.8b   98b      30t      2.6q
+	it gets bad after this point.
+n^2      
+n^3     
+2^n                                                                       
+n!                                                                
+     
