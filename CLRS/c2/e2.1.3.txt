@@ -1,0 +1,25 @@
+Pseudocode for linear search:
+
+LinearSearch(A, val)
+	for i = 1 to A.length
+		if a[i] ==  val
+			return i
+		else
+			i = i + 1
+	return nil
+
+
+Proof:
+
+Invariant for for-loop: 
+	at the start of each iteration of the loop, the index i of array a holds a valid value.
+
+Initialization:
+	i[0] is either a value in a, or a's length is 0 at which point our loop terminates
+
+Maintenance:
+	i[n] is a valid index in a. It's value is either val, and the function returns, or it is not,
+	and i is incremented.
+
+Termination:
+	If i is greater than A.length, the loop terminates, meaning val is not in a.  
