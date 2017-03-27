@@ -1,0 +1,23 @@
+selection sort pseudocode:
+
+SelectionSort(a):
+	for i = 1 to a.length-1
+		min = a[i]
+		minIndex = i
+		for j = i+2
+			if a[j] < min
+				minIndex = j
+				min = a[j]
+		a[minIndex] = a[i]
+		a[i] = min
+
+The loop invariant:
+	For each iteration of the loop, the range of the array ending at index
+	i-1 is sorted, and contains the smallest values in the collection.
+
+We only have to run the algorithm to iteration A.length-1 because the last iteration
+will automatically contain the largest element. In the last iteration of the loop,
+a[1] to a[a.size-2] is a sorted range containing the smallest values in the collection.
+This means that a[a.size-1] and a[a.size] are, in any order, the largest and second largest
+values in the array. By plating the second largest value at the second last position, we
+guarantee that the largest value is at the last position.
