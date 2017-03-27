@@ -1,0 +1,4 @@
+The average case linear search runtime would be cn/2. If we are equally likely to find an element
+at any position, we will, on average, view half of the search space before finding our value.
+
+The worst case is cn, when an element isn't in the list.

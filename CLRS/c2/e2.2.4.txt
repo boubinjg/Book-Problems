@@ -1,0 +1,3 @@
+No. Within the current state of the art, some algorithms are simply not efficient. NP-Complete algorithms
+can not currently be reduced to effecient runtimes. This may change in the future, but currently some algorithms
+are simply not efficient, provided a reasonable definition of what makes an algorithm "efficient".
