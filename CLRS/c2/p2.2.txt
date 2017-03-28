@@ -1,0 +1,26 @@
+1 2 3 4 5
+
+To prove that bubblesort is correct, 
+we have to prove that the invariant is correct.
+
+The invariant for bubble sort is:
+	the range up to i is sorted and contains the lowest
+	values in the array.
+
+Beginning:
+	The size of the range is 0, so it can contain no elements.
+
+Maintainence: 
+	The loop J moves the largest value in the range i+1-j to the position i. 
+	For all previous executions of the loop, the smallest value in its range would
+	have already been placed, sorted, at the previous value of i, so the range is sorted
+	and contains the smallest values in the range.
+
+Termination:
+	The range from 1 to A.length-1 contains the A-1 lowest values in sorted order.
+	This means that the largest value in the range is at position A.length, 
+	therefore that the range is sorted.
+
+
+The worst case running time of bubblesort is n^2. This is the same as insertion sort, the difference
+between the two is that insertion sort has a better average case.
