@@ -1,0 +1,5 @@
+You can't simply use binary search as specified. You could cut down on
+runtime in some situations by using a combination of binary and sequential search
+or a modified binary search. In some situations, however, sequential search would
+be faster than binary search, so efficiency would depend on the size of the subarray.
+Basically, it depends.

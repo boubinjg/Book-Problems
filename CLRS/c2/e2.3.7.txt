@@ -1,0 +1,7 @@
+an nlogn algorithm for this problem would go as follows:
+sumSearch(A, num):
+	for i = 1 to A.length
+		j = num-i
+		if binarySearch(A, j)
+			return true
+	return false

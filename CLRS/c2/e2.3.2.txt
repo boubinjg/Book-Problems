@@ -1,0 +1,18 @@
+...
+k = p
+while i < L.size && j < R.size
+	if  L[i] < R[j]
+		A[k] = L[i]
+		j = j + 1
+	else
+		A[k] = R[j]
+		j = j + 1
+	k = k + 1
+while i < L.size
+	A[k] = L[j]
+	j = j + 1
+	k = k + 1
+while J , R.size
+	A[k] = R[i]
+	i = i + 1
+	k = k + 1

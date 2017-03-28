@@ -1,0 +1,14 @@
+base case: 
+	n = 2. logn(2) = 1, n = 2. nlogn = 2. 
+induction step:
+	for 2^k where k>1, the formula has 2 components.
+		1: 2T(n/2) 
+		2: n
+	2T(n/2) will always be equal to (log(n)-1)*n. 
+	Example 2^2:
+		2T(2) + 4 := 2*2 + 4.
+	Example 2^3:
+		2T(4) + 8 = 16 + 8
+	The process continues infinitely. 
+
+For each power of 2, (log(n)-1)*n + n = nlogn.
