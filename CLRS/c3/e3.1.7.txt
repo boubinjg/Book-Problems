@@ -1,0 +1,10 @@
+the intersect of o(f(n)) and w(f(n)) is the empty set. o(f(n)) is the set of all functions which are
+non-asymptotically tight upper bounds on f(n), and w(f(n)) is the set of all functions which are 
+non-asymptotically tight lower bounds on f(n). 
+
+These non-tight bounds mean that w(f(n)) or o(f(n)) can't be multiplied by an arbitrary constant such that
+c*w(f(n)) = f(n), same with o. This means that the functions constituting the set w(f(n)) are all lower order
+than f(n), and all functions constituting the set o(f(n)) are higher order than f(n).
+
+Because no function in o(f(n)) is the same order as a function w(f(n)), the sets are distinct.
+This means that their intersect is the empty set.

@@ -1,0 +1,5 @@
+W(g(n,m)) = {f(n,m) : there exists positive constants c, n0, and m0 such that
+	     0 <= cg(n,m) <= f(n,m) for all n >= n0 and m >= m0}
+
+T(g(n,m)) = {f(n,m) : there exists positive constants c1, c2, n0 and m0 such that 
+	     c1*g(n,m) <= f(n,m) <= c2*g(n,m) for all n >= n0 and m >= m0}
