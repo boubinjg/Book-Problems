@@ -1,0 +1,7 @@
+2^n+1 is O(2^n). 2^n+1 is equal to 2*2*n. this means that a constant (2) can be applied to the function (2^n)
+to match the required worst case.
+
+2^2n is not O(2^n). We can not apply a constant to turn 2^n into 2^2n, as 2^2n = 2^n * 2^n. 
+We are essentially squaring the supposed "worst case" term. This means that, unline 2^n+1,
+we would have to multiply 2^n by a function which is based on the input size, and just happens
+to also be 2^n. 

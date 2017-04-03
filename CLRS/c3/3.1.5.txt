@@ -1,0 +1,8 @@
+theorem 3.1:
+for any two functions f(n) and g(n), we have f(n) = T(g(n)) iff 
+f(n) = O(g(n)) and f(n) = W(g(n)).
+
+O(g(n)) is the worst case complexity, and W(g(n)) is the best case. for a function to be
+T(g(n)), for constants c1 and c2, c1*g(n) <= f(n) <= c2*g(n). This means that the function's
+worst case complexity would be c2*g(n), or O(g(n)), and best case, or lower bound, would be
+c1*g(n), or W(g(n)).
