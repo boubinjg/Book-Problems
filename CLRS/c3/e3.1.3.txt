@@ -1,0 +1,5 @@
+O(f(n)) is used to represent worst case runningtime. If the worst case running time is "at least" O(n^2),
+that implies that the worst case running time could be larger than n^2, so the algorithm would not be O(n^2),
+it would be O(x) where x is larger than n^2. The qualifier "at least" invalidates the claim
+that the algorithm is O(whatever) because it implies that the worst case can be greater than the worst case
+supposed in the statement.

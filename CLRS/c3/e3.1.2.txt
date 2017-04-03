@@ -1,0 +1,9 @@
+For constants a and b, and input n (n+a)^b = T(n^b).
+
+T(g(n)) is the bound of the function f(n), where for constants c1 and c2,
+c1*g(n) <= f(n) <= c2*g(n)
+
+simply adding constant a to the input size n and applying the exponent b has the same effect
+as multiplying (n)^b * c where, if n is larger than a, c is a fraction of the input size to b.
+Because we are assuming an arbitrarily large input size, we can assume that c will always be less than n^b
+so n^b will be the larger term.  

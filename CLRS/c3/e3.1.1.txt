@@ -1,0 +1,8 @@
+//T(f(n)) = theta of f of n
+
+For two functions f(n) and g(n), T(f(n) + g(n)) depends on the larger of the two terms.
+If T(f(n)) is larger than T(g(n)), g(n) will be generalized. for instance:
+say f(n) = n^2 + 2n + 1 and g(n) = n + 2
+
+f(n) + g(n) = n^2 + 3n + 3. T(f(n)) is n^2, or the largest term of the equation.
+g(n), not containing the largest term in the equation, is totally eclipsed.
