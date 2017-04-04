@@ -1,1 +1,10 @@
+lg(n!) is polynomially bounded
 
+lg(n!) is O(nlog(n)) which is polynomial
+
+lg(lg(n!)) is not polynomially bounded
+
+lg(n!) is O(nlog(n)) so worst case, lg(lg(n!)) is lg(nlg(n)).
+
+lg(nlg(n)) = lg(n) + lg(lg(n)). lg(n) is the larger of the terms, 
+and is not polynomial.
