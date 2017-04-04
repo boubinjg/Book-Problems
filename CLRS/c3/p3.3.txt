@@ -1,0 +1,9 @@
+Classes:
+1)    1
+lg*n) lg(lg*n), lg*(lg(n), lg*n 
+lgn)  n^1/lgn, ln(ln(n)), root(lgn), ln(n), lg^2 n, lgn^lgn
+n)    n
+nlgn) nlgn
+n^k)  n^2, n^3, n^lg(lg(n)) 
+2^n)  2^lg*n, 2^root(2lgn), 2^lgn, 4^lgn, (3/2)^n, 2^n, e^n, n*2^n, 2^2^n, 2^2^n+1, lg(n!)
+n!)   lg(n)!, n!, (n+1)!
