@@ -1,0 +1,9 @@
+klnk = T(n) implies k = T(n/ln(n))
+
+if k * ln(k) is bounded by T(n), removing the ln(k) term changes the bound by a factor
+of ln(n). By removing a portion of our input, the bound changes by a proportionate factor.
+
+For instance, if k^2 = T(n), we can infer that k = T(root(n)). inputs of size k will simply
+take n^(1/2) times as long to process on average. This is the same for logs. by removing 
+the input of size ln(k), we can deduce that a T(n) algorithm will take T(n/ln(n)) time to process
+because our input size (n), has been cut by a factor of ln(n). 
