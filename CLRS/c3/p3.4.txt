@@ -1,0 +1,27 @@
+a) f(n) = O(g(n)) implies g(n) = O(f(n)):
+	false.
+	counter example f(n) = n, g(n) = n^2
+
+b) f(n) + g(n) = T(min(f(n), g(n))).
+	false. counter example f(n) = n, g(n) = n^2 which is T(n^2), not T(n)
+
+c) f(n) = O(g(n)) implies lg(f(n)) = O(lg(g(n)):
+	true. the upper bound of f(n) would reduce by a factor of the function applied to it,
+	in this case lg.
+
+d) f(n) = O(g(n)) implies 2^f(n) = O(2^g(n))
+	true, same as above
+
+e) f(n) = O((f(n))^2) 
+	techically true, adding to the degree of a positive function will be an upper bound to
+	the original fnction
+
+f) f(n) = O(g(n)) implies g(n) = W(f(n)).
+	true by definition 
+
+g) f(n) = T(f(n/2))
+	True, for c = 2, cn/2 <= n <= cn/2
+
+h) f(n) + o(f(n)) = T(f(n))
+	False, o(f(n)) would be a higher order than f(n), meaning that this couldn't be
+	W(f(n)).
