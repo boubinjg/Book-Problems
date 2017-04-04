@@ -1,0 +1,7 @@
+		O	o	W	w	T
+lg^k(n),n^e     Y	N	N	N	N
+n^k    ,c^n     N	N	Y	Y	N
+root(n),n^sinn  N	N	Y	Y	N
+2^n    ,2^(n/2) N	N	Y	Y	N
+n^lgc  ,c^lgn   Y	Y	Y	Y	Y
+lg(n!) ,lg(n^n) Y	Y	N	N	Y

@@ -1,0 +1,19 @@
+If k=>d, p(n) = O(n^k):
+	O is the upper bound of a function. for a function who's highest term is an^d, and d < k,
+	there will always exist a constant c for which 0 <= an^d <= cn^k, so p(n) is O(n^k).
+
+if k<=d, p(n) = W(n^k)
+	W is the lower bound of a function. for a function who's degree is greater than k,
+	there will always exist a constant c for which cn^k <= an^d
+
+if k=d, p(n) = T(n^k)
+	T describes simultaneously the lower and upper bound. if k = d, a polynomial of degree d, 
+	there will always be constants c1 and c2 where c1n^k <= n^d <= c2n^k.
+
+if k>d, p(n) = o(n^k)
+	o is the loose upper bound. For a polynomial k of a higher degree than d, there will always exist a 
+	constant c where an^d < cn^k.
+
+if k<d, p(n) = w(n^k)
+	w is the loose lower bound. for a polynomial k of lower degree than d, there will always exist a 
+	constant c where cn^k < an^d
