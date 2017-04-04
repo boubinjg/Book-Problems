@@ -1,0 +1,31 @@
+golden ratio: (1+root(5)) / 2
+conjugate: (1-root(5)) / 2
+
+
+base case: (1/2 + root(5)/2 - 1/2 + root(5)/2)/ root(5) 
+	 = root(5)/root(5) = 1
+
+
+induction step:
+
+nfib = (1/2 + root(5)/2) ^ n - (1/2 + root(5)/2)^n / root(5);
+n+1fib = (1/2 + root(5)/2) ^ n+1 (1/2) + root(5)/2)^n+1) / root(5);
+n+2fib = (1/2 + root(5)/2) ^ n+2 (1/2) + root(5)/2)^n+2) / root(5);
+
+n+1fib = ((1/2 + root(5)/2)*(1/2 + root(5)/2)^n +
+	  (1/2 - root(5)/2)*(1/2 + root(5)/2)^n)/root(5)
+
+n+2fib = ((1/2 + root(5)/2)*(1/2 + root(5)/2)*(1/2 + root(5)/2)^n +
+	  (1/2 - root(5)/2)*(1/2 - root(5)/2)*(1/2 + root(5)/2)^n)/root(5)
+
+n+1fib + nfib = 
+
+	  phi^n - phih^n / r(5) + phi*phi^n - phih*phih^n/root(5)
+
+	= (phi+1)*phi^n - (phih+1)*phi^n/ root(5)
+
+	   phi+1 = phi^2 so:
+	= (phi^2) * phi^n - (phih^2)*phi^n / root(5)
+
+therefore,
+	nfib + n+1fib = n+2fib.

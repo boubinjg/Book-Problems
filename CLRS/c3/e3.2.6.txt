@@ -1,0 +1,22 @@
+golden ratio: (1+root(5)) / 2
+conjugate: (1-root(5)) / 2
+
+phi^2 = (1+2root(5) + 5)/4
+      =	1.5 + root(5)/2 
+
+1+phi = 1/2 + root(5)/2 + 1 
+      = 1.5 + root(5)/2
+
+phi^2 = 1 + phi
+
+
+
+
+
+
+phiHat^2 = (1-2root(5)+5)/4
+         = 1.5 - root(5)/2
+phiHat + 1 = .5 - root(5)/2 + 1
+           = 1.5 - root(5)/2
+
+phiHat^2 = 1 + phiHat
