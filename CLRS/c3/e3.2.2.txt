@@ -1,0 +1,10 @@
+a^logb(c) = c^logb(a);
+
+lgb( a ^ lgb(c)) = lgb(c) * lgb(a)
+
+lgb(c^logb(a)) = lgb(c) * lgb(a)
+
+By taking lgb of both sides, we can multiply the exponent by
+lgb of the exponentiated term. The exponent and exponentiated term
+in one situation is opposite of the other, so the equations returned
+are lgb(c) * lgb(a), in either order. They are the same.

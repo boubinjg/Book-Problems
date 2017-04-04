@@ -1,0 +1,11 @@
+if f(n) and g(n) are monotonically increasing:
+
+	f(n) + g(n) would also be monotonically increasing. f(n) + g(n) would increase at a rate of
+	O(max(f(n), g(n))), therefore if even one of f(n) and g(n) is monotonically increasing, so is 
+	f(n) + g(n). 
+
+	f(g(n)) would be monotonically increasing. Applying one monotonically increasing function (like n^2)
+	to another (n), would simply return an equal or higher order monotonically increasing function.
+
+	f(n)*g(n) is monotonically increasing for the same reasons as above. Multiplication would only produce
+	an equal or higher order monotonically increasing function.

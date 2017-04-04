@@ -1,0 +1,7 @@
+log*(log(n)) is larger than log(log*(n)).
+
+for a number, n, log*(n) produces a very small number, much smaller than log(n).
+log(n) of a given number, say 65536, will generally be significantly larger than 
+log*(n). 16 compared to 4. log* of 16 (3), is larger than log(4) (2). generally,
+putting the more highly scaled function on the outside of the lower-scaled function
+produces a larger result.

@@ -1,0 +1,17 @@
+prove:
+n! = o(n^n):
+		n! (1*2*3*4*5...) will always be smaller than n^n for a given n.
+		For any n, n! will never be greater than n^n, because they consist of the same
+		number of multiplied terms, but the terms in n! start at one and increase each time,
+		where the terms in n^n are always n, or the largest and final term in n!.
+n! = w(2^n)
+		n! is (almost) always greater than 2^n for the opposite reason as above.
+		for n>3, n! will always be greater than 2^n because the multiplied terms in
+		n! are larger than 2, and the product of the previous numbers (n-k)! is already larger
+		than 2^(n-k).
+
+lg(n!) = T(nlgn)
+	lg(2^n) = 2^lg(n)
+	lg(n^n) = n*lg(n)
+	Because of the derivations above, we know that n! is o(n^n) and w(2^n). for lg(n!), the log of 
+	the loose bounds produce functions of the form c*nlg(n), meaning that n! must be at greatest t(nlgn).
