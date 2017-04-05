@@ -1,0 +1,29 @@
+A)
+	for two functions, f(n) and g(n), if f(n) is WI(g(n)), that means that 
+	f(n) >= cg(n) >= 0 for all n. if f(n) = O(g(n)), that means that 
+	0 <= f(n) <= cg(n). These are inverses. There are three possible states for functions f(n), and g(n).
+	1: f(n) < g(n): f(n) = O(g(n))
+	2: f(n) > g(n): f(n) = WI(g(n))
+	3: f(n) = g(n): f(n) is both O(g(n)) and WI(g(n)).
+
+B) 
+	advantages:
+		using WI to describe runningtimes over W assures that there is no ambiguity over what 
+		constitutes an appropriate value n. While W assumes that n is sufficiently large,
+		WI forces n to be infinitely large.
+	disadvantages:
+		The notational difference may get in the way of the fact that you only need a sufficienly large
+		N to truely see the effect of W(N), as algorithms are meant to be executed. an "infinitely" large
+		N is not going to be seen in a real world situation, so sufficiently large numbers are more
+		appropriate
+
+C) 
+	using O' in theorem 3.1 would allow for asymptotically negative functions to be included in T(f(n)).
+
+D) 
+	W~(f(n)) = 
+		0 <= cg(n)lgK(n) <= f(n) 
+
+	T~f(n)) = 
+		0 <= c1g(n)lgK1(n) <= f(n) <= c2g(n)lgk2(n)
+
