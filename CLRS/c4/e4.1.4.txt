@@ -1,0 +1,3 @@
+To allow an empty subarray, we have to change the base case of the function to allow
+situations where high < low. This would signify a base case of subarray size 0. 
+This would return the sum value 0.
