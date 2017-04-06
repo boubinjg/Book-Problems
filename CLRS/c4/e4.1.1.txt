@@ -1,0 +1,1 @@
+It should return 0 because find-max-corssing-subarray will always return 0 on a non-negative array.

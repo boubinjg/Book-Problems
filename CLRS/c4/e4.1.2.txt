@@ -1,0 +1,10 @@
+findMaxSubarray (a):
+	maxSum = -inf	
+	for i = 1 to a.length
+		sum = 0
+		for j = i to a.length
+			sum += a[j]
+			if(sum > maxSum)
+				maxSum = sum
+	
+
