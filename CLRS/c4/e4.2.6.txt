@@ -1,0 +1,4 @@
+You can multiply them as fast as the closest power of 2 above kn.
+If you pad the matrix with zeros to that point, or find a more clever way
+to avoid the power of two issue. It doesn't matter if the matrixes are knxn and nxkn or
+nxkn and knxn.

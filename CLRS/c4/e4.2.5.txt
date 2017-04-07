@@ -1,0 +1,5 @@
+68: 132464 = 68^x; x = 2.795
+70: 143640 = 70^x; x = 2.795
+72: 155424 = 72^x; x = 2.794
+
+All of these are slightly faster than strassen

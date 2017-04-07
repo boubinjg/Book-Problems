@@ -1,0 +1,6 @@
+lg2(7) = lg3(x)
+x = 3^log(7)/log(2)
+x ~= 21
+
+If you can multiply a 3x3 matrix with 21 multiplications, you can solve it slightly faster
+than a 2x2 using 7

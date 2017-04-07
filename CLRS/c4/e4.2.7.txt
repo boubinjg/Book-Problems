@@ -1,0 +1,6 @@
+multComplex(a,b,c,d):
+	p1 = ac;
+	p2 = bd;
+	p3 = (a+b)(c+d);
+	
+	return p1-p2, p3-p2-p1
