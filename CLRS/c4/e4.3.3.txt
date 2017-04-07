@@ -1,0 +1,6 @@
+T(n) = 2T(n/2) + n is W(nlgn)
+
+T(n) 	>= 2(c(n/2)lg(n/2))
+	>= cnlg(n) - clg(2)
+	>= cnlg(n) - c
+	true for any c less than 2

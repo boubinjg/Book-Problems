@@ -1,0 +1,7 @@
+T(n) = T(ceiling(n/2)) + 1 is O(lgn)
+
+T(n) <= clg(n/2) + 1
+T(n) <= clg(n) - clg(2) + 1
+T(n) <= clg(n) - c + 1
+
+true for any c greater than 2.
