@@ -1,0 +1,11 @@
+aT(n/4) + O(n^2) to beat O(n^lg(7)) 
+
+aT(n/4) + O(n^2)
+= n^lg4(a) + O(n^2) 
+considering we have to simply beat n^2.81, we can assume that n^lg4(a) has to
+be greater than n^2.
+
+so we must find the greatest a such that n^lg4(a) < n^2.81
+or where log4(x) < log2(7)
+
+x must be less than 49.

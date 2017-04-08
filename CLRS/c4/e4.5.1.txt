@@ -1,0 +1,10 @@
+a) T(n) = 2T(n/4) + 1
+	a = 2, b = 4
+	n^lg4(2) = root(n)
+	O(root(n))
+b) T(n) = 2T(n/4) + root(n)
+	cannot be determined by master method
+c) T(n) = 2T(n/4) + n
+	root(n) + n, O(n)
+d) T(n)  2T(n/4) + n^2
+	root(n) + n^2, O(n^2)
