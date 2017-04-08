@@ -1,0 +1,10 @@
+a)
+By reference:
+	T(n/2) + 1
+		lgn
+By value:
+	T(n/2) + n
+		O(1) + O(n) = nlgn
+By range:
+	T(n/2) + lgn
+	lgn

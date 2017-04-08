@@ -1,0 +1,29 @@
+a) T(n) = 2T(n/2) + n^4
+	a = 2, b = 2
+	n^lg2(2) + 3 = n^4
+	O(n^4)
+b) T(n) = T(7n/10) + n
+	a = 1, b = 10/7
+	nlg10/7(1) = O(1)
+	O(n)
+c) T(n) = 16t(n/4) + n^2
+	a = 16, b = 4
+	lg4(16) = n^4
+	O(n^4)
+d) T(n) = 7T(n/3) + n^2
+	a = 7, b = 3
+	lg3(7) + n^2
+	O(n^2)
+e) T(n) = 7T(n/2) + n^2
+	a = 7, b = 2
+	lg2(7) + n^2
+	O(n^lg2(7))
+f) T(n) = 2T(n/4) + root(n)
+	a = 2, b = 4
+	n^lg4(2) + root(n)
+	n^.5 + n^.5
+	root(n)*lgn
+g) T(n) = T(n-2) + n^2
+	can't use masters theorem
+	T(n-2) -> n/2 +n^2
+	O(n^2)
