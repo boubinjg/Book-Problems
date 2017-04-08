@@ -1,1 +1,32 @@
+a) 4T(n/3) + nlgn
+	a = 4, b = 3
+	n^log3(4) 
+b) 3T(n/3) + n/lgn
+	a = 3, b = 3
+	n^lg3(3) = n
+	n + n/lgn
+	n
+c) 4T(n/3) + n^2 * root(n)
+	a = 4, b = 3
+	n^log4(3) + n^2.5
+	n^2.5
+d) 3T(n/3)-2) + n/2
+	a = 3, b = 3 //subtraction doesn't matter
+	n^lg3(3) + n/2 -> same base
+	nlgn
+e) 2T(n/2) + n/lgn
+	n, same as 2
+f) T(n/2) + T(n/4) + T(n/8) + n
+	a = 1 for all, b = 2,4,8
+	n^log2(1)... all are O(1)
+	n
+g) T(n-1) + 1/n
+	T(n-1) is n which is > 1/n
+	n
+h) T(n-1) + lgn
+	T(n-1) is 1, which is still greater than lgn
+	n
+i) T(n-2) + 1/lgn
+	T(n-2) is n/2 + 1/lgn
+	n/2 
 
