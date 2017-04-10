@@ -1,0 +1,5 @@
+p {i = 1/i} 
+
+sum from 1 to n of 1/n
+
+average is n/n = 1
