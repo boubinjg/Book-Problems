@@ -1,0 +1,9 @@
+does permute-with-all(a)
+produce a random uniform permutation:
+
+n = a.length
+for i = 1 to n
+	swap(a[i], a[random(1,n)]
+
+No.
+This algorithm produces n^n possibilities, as opposed to n!

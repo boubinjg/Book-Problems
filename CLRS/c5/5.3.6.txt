@@ -1,0 +1,15 @@
+the sorting predicate could, instead of looking like this: a[i]<a[j] could be this:
+
+where a[i] == the random index of i
+randomComp(1,i, j) {
+	if(i == j)
+		comp(random(1, a.length^3), random(1, a.length^3))
+	else
+		return i < j
+}
+comp(a, i, j) {
+	if(a[i] != a[j])
+		return a[i] < a[j]
+	else 
+		return comp(random(1, a.length^3), random(1, a.length^3))
+}
