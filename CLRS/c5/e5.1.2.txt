@@ -1,0 +1,10 @@
+random(a,b)
+	int binSize = log2(b-a);
+	Array a;
+	for 1 to binSize
+		arr.append(random());
+	ret = evaluateBinary(arr); //assume this function evaluates binary numbers
+	if(random > b-a)
+		random(a,b)
+	else
+		return a+ret;

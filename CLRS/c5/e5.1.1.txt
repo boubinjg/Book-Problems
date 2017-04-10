@@ -1,0 +1,2 @@
+The ability to compare two candidates can be applied linearly to the list to determine the
+order of all candidates.
