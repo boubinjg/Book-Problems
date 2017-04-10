@@ -1,0 +1,3 @@
+The algorithm proposed exclused more than just the identity permutation from the list.
+for instance, the set of all permutations where v[1] = videntity[1] is excluded.
+Basically, no value can be at its index in the identity permutation.
