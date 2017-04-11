@@ -1,0 +1,40 @@
+Chapters to take seriously:
+know these chapters and their problems intimately
+2
+3
+4
+6
+7
+8
+9
+10
+11
+12
+15* //very important
+16
+21
+22
+23
+24
+32
+Appendix A
+Appendix C
+Chapters to read but not take so seriously:
+have a high level understanding of the content of these chapters
+1
+5
+13 //but know what a red-black tree is
+14
+17
+18
+19
+20
+25
+26
+27
+28
+29
+30
+31
+Appendix B
+Appendix D
