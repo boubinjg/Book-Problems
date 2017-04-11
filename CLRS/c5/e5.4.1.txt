@@ -1,0 +1,9 @@
+Probability that someone has same birthday as me = 1/2:
+1-(364/365) ^ n > .5 = 253
+
+Probability that two people have birthday on fourth of july
+y = 365
+	1 - n/y(y-1/y)^n-1 * (y-1+n / n) > .5
+= 	1 - ((n/365)(364/365)^n-1 * (364+n / n)) > .5
+= 613
+

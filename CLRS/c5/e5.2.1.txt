@@ -1,0 +1,6 @@
+Probability of hiring one time:
+1/n, same as probability of the first element in the sequence being the 
+max element in the sequence
+
+Probability of hiring n times: 
+1/n!
