@@ -1,0 +1,6 @@
+The maximum number of elements in a heap of height n is 2^n -1, and the minimum number of
+elements in a heap of height n is 2^(n-1)+1.
+
+This means that any number of elements greater than 2^(n-1) and less than 2^n fit
+inside the heap of height n. floor(lg2(2^(n-1)+1)) = n-1, and floor(lg2(2^n - 1)) = n-1, so 
+the a heap of x elements is always floor(log2(x))

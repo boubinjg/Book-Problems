@@ -1,0 +1,8 @@
+A heap with n elements has height = h = floor(log(n)). 
+
+This means that 2^h -1 = the max number of elements possibly in the heap.
+2^(h-1)-1 elements of the heap are in the top rows of the heap, and
+at most 2^(h-1) elements are in the last row.
+
+This means that we can simply view the last half of elements
+as the leives.

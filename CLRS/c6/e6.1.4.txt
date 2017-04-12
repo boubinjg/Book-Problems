@@ -1,0 +1,7 @@
+The smallest element of a max-heap must be a leaf. The location of the leaf depends on when
+it was added to the heap. It doesn't necessarily have to be in the lowest level of the heap,
+but it must be in the lower two levels to satisfy the property that height(n) = floor(lg(n)).
+
+For the smallest element to be an internal node, to satisfy the heap property, it would
+by definition have to have a child of smaller value which is impossible if it is the
+smallest node.

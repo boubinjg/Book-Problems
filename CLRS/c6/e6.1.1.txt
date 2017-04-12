@@ -1,0 +1,4 @@
+Minimum elements in a Heap of size N:
+2^(n-1) + 1
+Maximum elements in a Heap of size N:
+2^n - 1

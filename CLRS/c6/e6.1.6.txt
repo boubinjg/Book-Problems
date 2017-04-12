@@ -1,0 +1,4 @@
+no,
+
+arr[4] = 3, arr[4*2] = 5, arr[4*2+1] = 7.
+arr[9] is supposed to be a child of arr[4]. but is greater than arr[4].

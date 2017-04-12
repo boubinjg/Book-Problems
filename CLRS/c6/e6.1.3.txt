@@ -1,0 +1,7 @@
+The max-heap property states that p(i) > a(i), or the parent of a node has a larger
+value than that node. This property is transitive. Say p is the root of a subtree.
+for there to be a greater value than p in the tree, either p's direct child would have
+to be greater than it, or one of its subchildren would have to be greater. If a child of p is
+greater than it, the heap property is invalidated by definition. If the larger value is
+a lower child, then the heap property would be invalid for the subtree beginning at the parent
+of that lower child. 
