@@ -1,0 +1,2 @@
+inserting with the value -inf assures that the key will always be greater than
+the value at the position i provided to heap-increase-key

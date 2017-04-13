@@ -1,0 +1,4 @@
+heap-delete(h, i)
+	swap(h[i] and h[size])
+	--size
+	maxheapify(a, i)

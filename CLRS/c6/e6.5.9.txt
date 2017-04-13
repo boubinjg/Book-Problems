@@ -1,0 +1,14 @@
+mergeLists(Arr[] lists) 
+	minHeap h
+	Arr ret
+	
+	for i from 1 to k
+		h.add(Lists[i][1], i) //the heap contains a list element and index
+		Lists[k][1] = Lists[k][2] //remove head of list, assumes linked list
+	while(lists isn't empty)
+		ret.push_back(h.top().val)
+		listNum = h.top().l
+		h.pop()		
+		if(Lists[l] != null) 
+			h.add(Lists[l][1]		
+	return ret;			     

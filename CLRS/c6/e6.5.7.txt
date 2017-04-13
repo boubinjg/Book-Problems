@@ -1,0 +1,7 @@
+First in First out queue:
+For every item in the queue, you can provide it priority equal to the order in which
+it was placed in the queue, then return items based on that priority, not item value.
+
+Stack:
+You can do the opposite of a fifo queue. Provide each item a lower priority than the current top
+and return the highest priority item based on that priority, not the value of the object.
