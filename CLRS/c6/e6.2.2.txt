@@ -1,0 +1,17 @@
+min-heapify(arr, i)
+	l = arr[i*2];
+	r = arr[i*2+1];
+	min = 0
+	
+	if(arr[l] < arr[i] && l<a.size())
+		min = l
+	else
+		min = i
+	if(arr[r] < arr[i] && l<a.size())
+		min = r
+
+	if(min != i)
+		swap(arr[i], arr[min])
+		min-heapify(arr, min)	
+
+The runtime of min-heapify is the same as max-heapify
