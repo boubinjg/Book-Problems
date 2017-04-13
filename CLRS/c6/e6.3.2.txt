@@ -1,0 +1,4 @@
+If we move down from the first position in the heap, the values it checks
+against may be in the correct position. By checking the root last,
+we assure that its two subtrees are already heaps, so it will return
+the correct result.
