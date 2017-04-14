@@ -1,0 +1,14 @@
+a)
+A d-ary heap can be represented exactly like a binary heap but with
+the child function would require some tinkering. 
+
+p*n-(n-2) to p*n+1
+
+b) for a d-ary heap the height is logd(n)
+
+c) extract max is bounded by the height of the heap, so it 
+would run in d*logd(n) time.
+
+d) logd(n)
+
+e) same as above
