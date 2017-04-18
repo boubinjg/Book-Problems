@@ -1,0 +1,5 @@
+When quicksort is given an array sorted in ascending order, the partition function
+will choose x to be the largest value of the array provided. When x is the largest
+value, all values before it will increment i. i will equal n and n will be
+returned as the partition. This will create a T(n-1) recurrence, as the split will be n and 0.
+The T(n-1) recurrence is O(n^2)

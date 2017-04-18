@@ -1,0 +1,3 @@
+By the substitution method, the -1 in T(n-1) can not substantially affect the time complexity
+because it is a constant and can be ignored. More accurately, the input decreasing by one each time
+is equivalent to n^2 / 2 total time. This is asymptotically similar to n^2.

@@ -1,0 +1,1 @@
+When all elements of the array have the same value, quicksort is O(n^2)
