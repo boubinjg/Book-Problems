@@ -1,0 +1,14 @@
+Selection sort + quicksort will run in O(n*k + n*lg(n/k)) time. 
+Quick sort runs in n*lg(n) time. Quicksort's n component is its partition function,
+which will always run. the logorithmic component is the recurrence. Our recurrence
+would be stopped in this new algorithm when it reaches a certain size. lgn was originally
+the recurrance because we split the input in two each sort. Now, lg(n/k) is appropriate because
+we do not need to account for the recurrance where n would be less than size k.
+
+The n*k component comes from the insertion sort component. Insertion sort is an n^2 algorithm. 
+Each section of the array sorted by insertion sort would run in k*k time. We would run exactly
+n/k insertion sort's. n/k * k*k = n*k, giving us the second component of our complexity.
+
+In theory and practice we should choose a k such that insertionSort(a) runs average case
+better than quicksort(a) where a is of size k. This can be done by benchmarking the machines
+used in practice.
