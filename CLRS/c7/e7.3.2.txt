@@ -1,0 +1,2 @@
+Best case: n 2T(n/2)
+worst case: n, T(n-2)

@@ -1,0 +1,4 @@
+In randomized analysis, we look at the average case instead of the worst case because
+the worst case is never identifiable. We can not determine, based on an input, whether 
+it will be best, worst, or average case. These outcomes are determined by random calculations. 
+Because of this, we look at the average case for every input.
