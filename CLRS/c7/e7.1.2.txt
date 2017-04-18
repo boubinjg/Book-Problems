@@ -1,0 +1,7 @@
+q would be equal to the size of the array. This is the worst case. 
+
+To output q as (p+r)/2, you could alternate between two if statements,
+one that checks if v[j] <= pval if j is even, and one that checks if v[j] < pval
+if j is odd.
+
+Quicksort would operate in nlogn time instead of n^2 on arrays of equal elements.

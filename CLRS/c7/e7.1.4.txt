@@ -1,0 +1,2 @@
+change the if statement in the loop in partition to check if
+a[j] >= x instead of <= x

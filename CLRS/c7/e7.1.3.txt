@@ -1,0 +1,15 @@
+int partition(std::vector<int>& v, int beg, int end)
+{
+        int pval = v[end]; // O(1)
+        int i = beg-1; //O(1)
+        for(int j = beg; j<end; j++) { //O(n)
+                if(v[j] <= pval) { //O(1)
+                        ++i;       //O(1)
+                        std::swap(v[i], v[j]); //O(1)            
+                }
+        }
+        ++i; //O(1)
+        std::swap(v[i],v[end]); O(1)
+        return i;
+}
+
