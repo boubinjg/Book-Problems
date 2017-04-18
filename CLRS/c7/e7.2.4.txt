@@ -1,0 +1,3 @@
+Insertion sort's best case is O(n) when running on a sorted input, as opposed to quicksort's n^2 time.
+If a majority of inputs were sorted or near sorted, insertion sort would perform better on this 
+majority of cases than quicksort. Insertion sort would then be the obvious choice to solve this problem.
