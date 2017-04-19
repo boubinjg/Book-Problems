@@ -1,0 +1,35 @@
+A)
+<13,19,9,5,12,8,7,4,11,2,6,21>
+x = 13
+i = 0
+j = 13
+loop through j
+j = 11
+loop through i
+i = 1
+<6,19,9,5,12,8,7,4,11,2,13,21>
+loop through j
+j = 10
+loop through i
+i = 2
+<6,2,9,5,12,8,7,4,11,19,13,21>
+loop through j
+j = 9
+loop through i
+i = 10
+terminate
+
+B)
+the first loop, (decrement j until a[j]<=x, will never access an element outside of
+the array.  
+
+Case 1: All elements are less than x. 
+	the first and last index would swap, then J would equal the second to last index,
+	and i would equal the last index, terminating the loop.
+Case 2: All elements are greater than x.
+	both i and j would be at index 1, and the loop would terminate
+case 3: anything else
+	for all other cases, i and j will find some numbers which satisfy their predicates.
+	If both loops find satisfactory numbers and swap them, they are guaranteed to at least find
+	one pair of numbers again in the array, but where i>j, which terminates the loop.
+
