@@ -1,0 +1,2 @@
+The smallest possible depth of a leaf in a decision tre for comparison sorting is n-1. You must
+do at least n-1 comparisons to assure that a list is sorted using a comparison sort.
