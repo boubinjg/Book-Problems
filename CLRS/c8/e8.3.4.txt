@@ -1,0 +1,4 @@
+Use radix sort, and sort each radix using counting sort.
+If two numbers have a different number of digits, assume all
+significant digits between the max of the smallest number and the
+largest number are 0.

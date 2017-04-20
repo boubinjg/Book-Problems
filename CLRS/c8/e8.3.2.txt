@@ -1,0 +1,7 @@
+Stable:
+insertion sort
+merge sort (if implemented correctly)
+
+unstable
+heapsort
+quicksort
