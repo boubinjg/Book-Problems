@@ -1,0 +1,10 @@
+a) simply compare a red jug to each blue jug until you find a match, then move onto the next red jug.
+  This is n^2.
+
+b) This is a comparison sort, so we must follow the rules of comparison sorting. For a given
+comparison sort, we follow a decision tree, where we compare two elements, and compare our
+next element based on that previous comparison. Following the proof in this chapter, we will 
+have a bound of nlogn.
+
+c) We can use randomized quicksort which has a bound of nlogn. The worst-cast number of 
+comparisons is n^2.
