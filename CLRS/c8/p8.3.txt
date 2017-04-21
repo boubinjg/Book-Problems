@@ -1,0 +1,6 @@
+a) you can use radix sort. Simply sort the numbers by the ith digit in a loop as radix sort
+does. To make this work, you should group numbers by number of digits and  sort each group 
+of numbers individually.
+
+b) do the same with strings, except you have to merge the sorted groups when you're done based
+on first letter
