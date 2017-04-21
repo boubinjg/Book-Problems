@@ -1,0 +1,11 @@
+a) counting sort 
+b) Hoare partition (not technically a sort for most cases, but here it works)
+c) insertion sort
+
+d) You can use any one that's stable, so a or c
+
+e) You can create a count array using your O(k) extra space
+   Then you loop through the original array starting at the back
+   if an element is in its correct position, increment i, decrement the value in the  
+   counting array, If the element isn't in its correct position, don't increment i, 
+   and swap the element and the value in its correct position. 
