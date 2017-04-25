@@ -1,0 +1,8 @@
+For randselect to make a recursive call of size 0, we would have to have p q and r such
+that p = q or r = q. 
+
+If p = q, then k = 1. for i to be less than k, i would have to be below zero. in no situation is an
+i value of 0 passed to the function, so the opposite path would be taken
+
+if q = r, i must be greater than k. This is also not possible, as no valid call to the function would
+choose an i greater than the number of elements in the array.

@@ -29,23 +29,26 @@ int randpartition(std::vector<int>& v, int beg, int end)
 }
 int randomizedselect(std::vector<int>& v, int beg, int end, int i)
 {
-	if(beg == end)
-		return v[beg];
-	int q = randpartition(v, beg, end);
-	int k = q-beg + 1;
-	if(i == k)
-		return v[q];
-	else if(i < k)
-		return randomizedselect(v, beg, q-1, i);
-	else
-		return randomizedselect(v, q+1, end, i-k);
+	
+	while(beg != end) {
+		int q = randpartition(v, beg, end);
+		int k = q-beg + 1;
+		if(i == k)
+			return v[q];
+		else if(i < k)
+			end = q-1;
+		else {
+			beg = q+1;
+			i = i-k;
+		}
+	}
+	return v[beg];
 }
 int main()
 {
 	std::vector<int> v{1,4,5,2,3,9,50,22,-10,-40,100};
 	int i = randomizedselect(v, 0, v.size()-1, 8);
 	std::cout<<i<<std::endl;
-	std::vector<int> v2;
 	
 	return 0;
 }
