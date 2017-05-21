@@ -1,0 +1,5 @@
+a) mergesort, nlogn + i
+
+b) n  + ilgn
+
+c) n + ilgi
