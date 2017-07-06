@@ -1,0 +1,5 @@
+To implement two stacks using one array and use all of it's allocated memory, you could
+place one stack's head at the first element of the array, and the other stack's head at the end of the array.
+
+When data is pushed to the first stack, increment that stack's head value, and place the data there. When
+data is pushed to the second stack, decrement the head value. When the two values are equal, the stack overflows.

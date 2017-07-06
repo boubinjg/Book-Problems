@@ -1,0 +1,12 @@
+enqueue(Q,4)
+4
+enqueue(Q,1)
+14
+enqueue(Q,3)
+314
+dequeue(Q)
+31
+enqueue(Q,8)
+831
+dequeue(Q)
+83

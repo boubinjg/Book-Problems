@@ -1,0 +1,5 @@
+You can insert elements into a singly linked list in O(1) time. Simply create a new node, set that node's
+value to the value you are inserting. Set its next pointer to head, and set the new node to head.
+
+You can also delete nodes in a singly linked list in constant time, in a way. If your delete function is passed
+a node, you can set that node's value to the value of the next node, store the pointer to the next node's next node, delete the next node, and set the current pointer to the stored pointer. You basically replace the node's values with it's following node, and delete the following node. 

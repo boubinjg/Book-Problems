@@ -1,0 +1,12 @@
+push(S,4)
+4
+Push(S,1)
+14
+Push(S,3)
+314
+Pop(S)
+14
+Push(S,8)
+814
+Pop(S)
+14
