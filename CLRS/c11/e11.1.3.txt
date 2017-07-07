@@ -1,0 +1,8 @@
+To implement this, you can use a linked list to store the data in each element. 
+
+Insert would push the data onto the head of the linked list
+
+Search would return the list
+
+Delete would either splice the data out of the list and delete it, or delete it if it is alone or 
+the end of the list.
