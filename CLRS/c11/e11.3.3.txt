@@ -1,0 +1,7 @@
+For a division function k mod m where m = 2^p-1 and k is a string whose value is calculated by radix of 
+2^p, the function will always return the same value for strings containing the same characters. When take 
+(2^p)^n % 2^p-1 for any n or p, you will get 1. This means that when you mod each radix, you will receive
+the character unmodified by the radix value. When you mod a string augmented by this radix pattern, you receive 
+the total value of it's characters added and modded by 2^p-1. This is the same irrespective of character order, so
+each permutation returns the same value. This would be a bad implementation for any hash table trying to store 
+strings of reduced alphabets, or short strings.

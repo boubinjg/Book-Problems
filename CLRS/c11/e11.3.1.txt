@@ -1,0 +1,2 @@
+You could hash the string you're searching for first. Then compare the hashed value to the hash of
+the strings in the data structure. When they are the same, check the strings to verify correctness.
