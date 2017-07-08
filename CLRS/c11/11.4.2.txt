@@ -1,0 +1,21 @@
+hashInsert(T,k)
+  i = 0
+  repeat 
+    j = h(k,i)
+    if T[j] == nil || T[j] == del
+      T[j] = k
+      return j
+    else i = i + 1
+  until i == m
+ error "overflow"
+
+hashDelete(T, k)
+  i = 0
+  repeat 
+    j = h(k,i)
+    if T[j] == k
+      T[j] = del
+      return true
+    else i = i + 1
+  until T[j] == NIL or i == m
+  return false
