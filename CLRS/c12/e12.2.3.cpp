@@ -74,7 +74,10 @@ int main()
 	rightright->parent = right;
 	rightleft->parent = left;
 
-	std::cout<<treePredecessor(leftright)<<std::endl;
-	std::cout<<treeSuccessor(leftright)<<std::endl;
+
+	node* newnode;
+	newnode->val = -5;
+	insert(root, nullptr, newnode);
+	iterativeInorder(root); 
 	return 0;
 }
