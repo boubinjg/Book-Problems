@@ -1,0 +1,2 @@
+Black nodes that aren't nil could have a degree anywhere from 2 to 4.
+The depth would remain unchanged.

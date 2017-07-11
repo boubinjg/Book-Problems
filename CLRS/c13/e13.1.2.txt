@@ -1,0 +1,10 @@
+                                                   26b
+
+                         17r                                             41b
+                14b                  21b                       30r              47b
+          10r         16b      19b        23b             28b        38b
+        7b   12b   15r             20r                           35r      39r
+      3r                                                            36?
+
+If you insert a red node, then node 35 violates property 4.
+If you insert a black node, then property 5 is violated

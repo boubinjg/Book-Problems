@@ -1,0 +1,6 @@
+All possible paths between a node and a leaf have to have the same black height. 
+The shortest path between a node and leaf contains only black nodes.
+The longest path contains exactly as many black nodes, but has one red node inbetween each black node.
+You can have no more than 1 red node between each black node based on property 4.
+That means that the longest possible path between a node and it's leaf is 
+twice as long as the shortest possible path.
