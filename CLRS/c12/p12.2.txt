@@ -1,0 +1,11 @@
+perform an inorder traversal of the radix tree recursively. Every time you hit a node, add the radix value
+of that node/link to the current tracking radix, and pass that value to the children. 
+
+radixPrint(cur, radix):
+  if(node != null)
+    radix += node.radix;
+    radixPrint(cur->left, radix)
+    if(cur.print)
+      print cur.radix
+    radixPrint(cur->right, radix)
+  
